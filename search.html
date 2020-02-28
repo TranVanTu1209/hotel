@@ -18,35 +18,37 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
     <header id="header">
-      <div class="container">
-        <nav id="main-nav" class="py-1">
-          <h5 class="main-nav-logo">
-            <a href="index.html" id="logo"
-              ><i class="fas fa-layer-group"></i> MANDALA INN</a
-            >
-          </h5>
+      <div class="header-container">
+        <nav class="main-nav" class="py-1">
+          <div class="main-logo-box">
+            <a class="main-nav-logo text-logo" href="index.html" id="logo" target="_blank">
+              <i class="fas fa-layer-group">
+              </i> MANDALA INN
+            </a>
+          </div>
           <ul class="nav-bar">
             <li>
-              <a href="index.html"> Trang chủ</a>
+              <a href="index.html" class="current" target="_blank"> Trang chủ</a>
             </li>
             <li>
-              <a href="search_results.html"> Khuyến mại</a>
+              <a href="endow_details.html" target="_blank"> Khuyến mại</a>
             </li>
             <li>
-              <a href="news.html"> Tin tức</a>
+              <a href="news.html" target="_blank"> Tin tức</a>
             </li>
             <li>
-              <a href="index.html"> Giới thiệu</a>
+              <a href="index.html" target="_blank"> Giới thiệu</a>
             </li>
             <li>
-              <a href="news.html"> Liên hệ</a>
+              <a href="news.html" target="_blank"> Liên hệ</a>
             </li>
             <li>
-              <a href="index.html">
+              <a href="index.html" target="_blank">
                 <i class="fas fa-globe-americas"></i>
                 <i class="fas fa-sort-down"></i> Vietnamese
               </a>
@@ -55,41 +57,46 @@
               </ul>
             </li>
             <li>
-              <a href="index.html"><i class="fas fa-user"></i> Đăng nhập</a>
+              <a href="index.html" target="_blank"><i class="fas fa-user"></i> Đăng nhập</a>
             </li>
             <li>
-              <a href="index.html"><i class="fas fa-user-plus"></i> Đăng ký</a>
+              <a href="index.html" target="_blank"><i class="fas fa-user-plus"></i> Đăng ký</a>
             </li>
           </ul>
         </nav>
-        <div class="header-showcase">
-          <h1 class="header-showcase-title">
-            Chuỗi khách sạn nhượng quyền hàng đầu Việt Nam
-          </h1>
-          <p class="header-showcase-text py-1">
-            Hơn 1000 phòng khách sạn 5 sao chuẩn quốc tế
-          </p>
-        </div>
-        <div class="header-find py-3">
-          <form action="">
-            <input
-              type="text"
-              placeholder="Tìm khách sạn, thành phố  gần nhất"
-            />
-            <input type="text" placeholder="T2, 17/02 - T3, 18/02" />
-            <input type="text" placeholder="2 phòng,1 người lớn,2 trẻ em" />
-            <input type="text" placeholder="Khách sạn 5 sao" />
-            <div class="submit-btn">
-              <a href="search.html" class="btn btn-info">Tìm kiếm</a>
-            </div>
-          </form>
-          <p class="text-result logo-color py-3 text-center">
-            Có 100 khách sạn có phòng theo ý bạn
-          </p>
+        <div class="show-bars d-hidden">
+          <div class="show-bar show-bar-1"></div>
+          <div class="show-bar show-bar-2"></div>
+          <div class="show-bar show-bar-3"></div>
         </div>
       </div>
     </header>
-
+    <!-- show case area -->
+    <div id="show-case">
+      <div class="header-showcase text-center">
+        <h1 class="header-showcase-title">
+          Chuỗi khách sạn nhượng quyền hàng đầu Việt Nam
+        </h1>
+        <p class="header-showcase-text py-1">
+          Hơn 1000 phòng khách sạn 5 sao chuẩn quốc tế
+        </p>
+      </div>
+      <div class="form-find py-3">
+        <form action="" class="form-group=-search">
+          <input type="text" placeholder="Tìm khách sạn, thành phố gần nhất" />
+          <input type="text" placeholder="T2, 17/02 - T3, 18/02" />
+          <input type="text" placeholder="2 phòng,1 người lớn,2 trẻ em" />
+          <input type="text" placeholder="Khách sạn 5 sao" />
+          <input type="submit" class="btn  submit-btn" value="Tìm kiếm">
+        </form>
+        <p class="text-center text-logo py-3">
+          Có <span class="number-hotel-ok">
+              100
+          </span>
+           khách sạn vừa ý bạn
+        </p>
+      </div>
+    </div>
     <!-- subheader in search engine -->
     <section id="sub-header">
       <div class="container">

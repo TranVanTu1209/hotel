@@ -1,0 +1,107 @@
+/* smart phone */
+/* tablets and more */
+@media(min-width : 1001px) and (max-width : 1220px) {
+    #header .main-nav .nav-bar li {
+      margin-top: 10px;
+    
+  }
+  #header .main-nav .main-logo-box a {
+      width: 200px;
+    }
+    .artcicles {
+      grid-template-columns: repeat(2, 1fr);
+   }
+  .artcicles .article:first-child {
+  grid-column: 1;
+  }
+   .locations {
+     grid-template-columns: repeat(2, 1fr);
+   }
+  .artcicles .article:first-child 
+  .article-link img {
+  width: 350px;
+}
+  .artcicles .article {
+    margin-top: 15px;
+  }
+  .article:first-child .article-inner {
+    bottom: 10%;
+    color: #222;
+    font-size: smaller;
+  }
+}
+@media(max-width : 1000px) {
+  #header .main-nav {
+    justify-content: space-between;
+  }
+  #header .main-nav .main-logo-box a {
+    font-size: 1.1rem;
+  }
+    #header .main-nav .nav-bar li {
+      margin-top: 10px;
+      float: none;
+  }
+    #header .main-nav .nav-bar li a{
+        font-size: 0.9rem;
+      }
+   #header .show-bars {
+     display: inline;
+   }   
+    #header .main-nav .nav-bar {
+      display: none;
+      margin-right: 30px;
+    }
+   #show-case .header-showcase
+    .header-showcase-title {
+     font-size: 1.5rem;
+   }
+   #show-case .header-find form {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     margin-right: 200px;
+  
+   }
+  #show-case .header-find form input {
+      font-size: 0.7rem;
+      padding: 10px 2px;
+  }
+  
+  #combo-deals .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+   #combo-deals .cards .card:nth-child(3) {
+     display: none;
+
+   }
+   #combo-deals button {
+    display: none;
+   }
+    .locations {
+     grid-template-columns: repeat(2, 1fr);
+   }
+   .locations .location:last-child {
+     display: none;
+   }
+    .artcicles {
+      grid-template-columns: repeat(2, 1fr);
+   }
+  .artcicles .article:first-child {
+  grid-column: 1;
+  }
+  .artcicles .article:first-child 
+  .article-link img {
+  width: 350px;
+}
+  .artcicles .article {
+    margin-top: 15px;
+  }
+  .article:first-child .article-inner {
+    bottom: 10%;
+    color: #222;
+    font-size: smaller;
+  }
+ #footer .group-items {
+   grid-template-columns: repeat(3, 1fr);
+ }
+} 

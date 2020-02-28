@@ -18,20 +18,22 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
     <header id="header">
-      <div class="container">
-        <nav id="main-nav" class="py-1">
-          <h5 class="main-nav-logo">
-            <a href="index.html" id="logo" target="_blank"
-              ><i class="fas fa-layer-group"></i> MANDALA INN</a
-            >
-          </h5>
+      <div class="header-container">
+        <nav class="main-nav" class="py-1">
+          <div class="main-logo-box">
+            <a class="main-nav-logo text-logo" href="index.html" id="logo" target="_blank">
+              <i class="fas fa-layer-group">
+              </i> MANDALA INN
+            </a>
+          </div>
           <ul class="nav-bar">
             <li>
-              <a href="index.html" target="_blank"> Trang chủ</a>
+              <a href="index.html" class="current" target="_blank"> Trang chủ</a>
             </li>
             <li>
               <a href="endow_details.html" target="_blank"> Khuyến mại</a>
@@ -46,7 +48,7 @@
               <a href="news.html" target="_blank"> Liên hệ</a>
             </li>
             <li>
-              <a href="index.html">
+              <a href="index.html" target="_blank">
                 <i class="fas fa-globe-americas"></i>
                 <i class="fas fa-sort-down"></i> Vietnamese
               </a>
@@ -55,13 +57,18 @@
               </ul>
             </li>
             <li>
-              <a href="index.html"><i class="fas fa-user" target="_blank"></i> Đăng nhập</a>
+              <a href="index.html" target="_blank"><i class="fas fa-user"></i> Đăng nhập</a>
             </li>
             <li>
-              <a href="index.html"><i class="fas fa-user-plus" target="_blank"></i> Đăng ký</a>
+              <a href="index.html" target="_blank"><i class="fas fa-user-plus"></i> Đăng ký</a>
             </li>
           </ul>
         </nav>
+        <div class="show-bars d-hidden">
+          <div class="show-bar show-bar-1"></div>
+          <div class="show-bar show-bar-2"></div>
+          <div class="show-bar show-bar-3"></div>
+        </div>
       </div>
     </header>
     <!-- payment section -->

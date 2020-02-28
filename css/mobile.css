@@ -1,0 +1,64 @@
+@media(max-width: 500px) {
+  .main-banner img {
+    height: 30vw;
+  }
+  #show-case .form-find form {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+  }
+  #show-case .form-find form input[type="submit"] {
+    display: block;
+    width: 100px;
+    margin: auto;
+  }
+  #combo-deals .combo-deals-title,
+    #other-locations .other-locations-title  {
+    font-size: 1.2rem;
+  }
+  #combo-deals .cards {
+    grid-template-columns: 1fr;
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 20px;
+  }
+  #combo-deals .cards .card:nth-child(3) {
+    display: block;
+  }
+  .locations {
+    grid-template-columns: 1fr;
+  }
+  .artcicles .article:first-child 
+  .article-link img {
+  width: 300px;
+  }
+  .artcicles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .artcicles .article:first-child {
+    grid-column: 1fr;
+  }
+  .article:first-child .article-inner {
+    font-size: 0.8rem;
+    color: #fff;
+    bottom: 50px;
+    width: 60%;
+    left: 25px;
+  }
+  .artcicles .article h4,
+   .article:first-child .article-inner h3 {
+    font-size: 0.9rem;
+    padding: 10px 0;
+    text-transform: capitalize;
+  }
+  .other-locations-title, .influence-title {
+    font-size: 1.3rem;
+  }
+  #sign-up .container .text-info h4 {
+    font-size: 1.2rem;
+  }
+  
+  #footer .group-items {
+    width: 90%;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
