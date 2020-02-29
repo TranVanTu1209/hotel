@@ -1572,13 +1572,11 @@ section#hotel-features .hotel-album {
 #filter-hotel .group-choices ul {
   display: flex;
 }
-
 #filter-hotel .group-choices ul .header-filter {
   position: relative;
   top: 10px;
   right: 10px;
 }
-
 #filter-hotel .group-choices ul li.list-choices .choice {
   background-color: var(--primary-color);
   border-radius: 20px;
@@ -1588,12 +1586,14 @@ section#hotel-features .hotel-album {
   color: #fff;
   cursor: pointer;
   margin: 3px;
+ 
 }
-
+#filter-hotel .group-choices ul li.list-choices {
+   outline: none;
+}
 #filter-hotel .group-choices ul li.list-choices div:first-child:hover {
   background-color: rgb(6, 100, 69);
 }
-
 #filter-hotel .group-choices ul li.list-choices div:first-child:hover+div {
   display: block;
 }
@@ -1701,6 +1701,7 @@ section#hotel-features .hotel-album {
 #list-hotels-result .container aside .hotel-map {
   height: 100px;
   margin-bottom: 30px;
+  z-index: -1;
 }
 
 #list-hotels-result .container aside .items .item {
@@ -1739,7 +1740,6 @@ section#hotel-features .hotel-album {
   cursor: pointer;
   transition: 0.4s all ease-in;
   text-align: center;
-  border-right: 1px solid #ddd;
   padding: 10px;
 }
 
@@ -1820,11 +1820,10 @@ section#hotel-features .hotel-album {
 }
 
 #list-hotels-result main .hotel-items .item .hotel-item-price .item-price {
-  margin-top: 68%;
+  margin-top: 100px;
 }
 
 #list-hotels-result main .hotel-items .item .hotel-item-info {
-  /* width: 30%; */
   margin-left: 20px;
 }
 

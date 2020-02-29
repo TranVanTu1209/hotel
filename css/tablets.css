@@ -1,5 +1,34 @@
 /* tablets ip pro and more */
 @media (max-width : 1300px) {
+  /* filter hotel */
+  
+  #filter-hotel .group-choices ul .header-filter {
+    display: none;
+  }
+  #list-hotels-result .container .sub-search-filter ul {
+    font-size: 0.83rem;
+  }
+  #list-hotels-result .container aside .items .item {
+    flex-direction: column;
+  }
+  #list-hotels-result .container aside .items .item img {
+    width: 185px;
+    margin-bottom: 10px;
+  }
+  #list-hotels-result main .hotel-items .item .hotel-item-content .hotel-item-img .header-img img {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  #list-hotels-result main .hotel-items .item .list-extra-img {
+    width: 96%;
+  }
+  #list-hotels-result main .hotel-items .item .hotel-item-price {
+    width: 20%;
+  }
+  #list-hotels-result main .hotel-items .item .hotel-item-info {
+    margin-left: 10px;
+  }
+  /* header */
   #header .main-nav .nav-bar li {
     margin-top: 10px;
   }

@@ -1,5 +1,10 @@
 @media(max-width: 500px) {
-
+  /* search results page */
+  #filter-hotel .group-choices ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* general */
   h2,
   h3,
   h4 {
@@ -547,7 +552,6 @@
     width: 100px;
   }
 
-
   /* payment 1*/
   #payment .container {
     flex-direction: column;
@@ -557,9 +561,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   #payment .container aside input {
-    width : 250px;
+    width: 250px;
   }
+
   #payment .steps {
 
     margin: 20px auto;
