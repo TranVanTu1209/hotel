@@ -1,5 +1,5 @@
-/* tablets ipad pro and more */
-@media(min-width : 1001px) and (max-width : 1300px) {
+/* tablets ip pro and more */
+@media (max-width : 1300px) {
   #header .main-nav .nav-bar li {
     margin-top: 10px;
   }
@@ -117,24 +117,25 @@
     margin-left: 30px;
   }
 
+  /* hotel destination - charm */
   section.hotel-destination .hotel-destination-details .hotel-infos {
     padding-left: 20px;
   }
 
-  section.hotel-destination .hotel-destination-details .hotel-img {
-    width: 70vw;
+  section.hotel-destination .hotel-destination-details {
+    padding: 10px 0;
   }
 
-  .hotel-pictures .hotel-album {
-    grid-gap: 0.1rem;
-    grid-template-columns: repeat(3, 1fr);
+  section#hotel-features .hotel-album div img {
+    width: 250px;
   }
 
-  .hotel-pictures .hotel-album img {
-    border-radius: 0;
-    width: 312px;
+  section#hotel-features .hotel-album {
+
+    grid-template-columns: repeat(4, 1fr);
   }
 
+  /* news */
   #hot-news .news {
     padding-right: 0;
     width: 100vw;
@@ -193,17 +194,14 @@
     width: 250px;
   }
 
-  #payment .steps {
-    padding-left: 140px;
-  }
-
   #payment .container main {
-    width: 60%;
+    padding-left: 4rem;
   }
 
-  #payment aside {
-    width: 60%;
+  .steps {
+    padding-left: 150px;
   }
+
 
   #payment .container .step-info .form-group-inline {
     flex-direction: column;
@@ -225,7 +223,7 @@
   }
 }
 
-/* smaller ipad pro */
+/* smaller ip normal */
 @media(max-width : 1000px) {
   #header .main-nav {
     justify-content: space-between;
@@ -390,23 +388,24 @@
     margin-left: 30px;
   }
 
+  /* charm hotel */
+  /* hotel destination - charm */
   section.hotel-destination .hotel-destination-details .hotel-infos {
     padding-left: 20px;
   }
 
-  section.hotel-destination .hotel-destination-details .hotel-img {
-    width: 70vw;
+  section.hotel-destination .hotel-destination-details {
+    padding: 30px 0;
   }
 
-  .hotel-pictures .hotel-album {
-    grid-gap: 0.1rem;
+  section#hotel-features .hotel-album div img {
+    width: 250px;
+  }
+
+  section#hotel-features .hotel-album {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .hotel-pictures .hotel-album img {
-    border-radius: 0;
-    width: 295px;
-  }
 
   /* news */
   #hot-news .news {

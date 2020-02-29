@@ -408,9 +408,9 @@ h4 {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: auto;
-  overflow: hidden;
+
 }
 
 #header .main-nav {
@@ -799,6 +799,7 @@ article h4:hover {
   margin: auto;
   display: flex;
   flex-direction: column;
+  padding: 10px 20px;
 }
 
 #sign-up .container form input[type="email"] {
@@ -1289,24 +1290,23 @@ article h4:hover {
   background-color: rgb(254, 255, 255);
 }
 
-#payment .steps .thin-bar {
+.steps .thin-bar {
   display: inline-block;
   width: 200px;
   height: 4px;
   background-color: #888;
-
 }
 
-#payment .steps {
+.steps {
   width: 80%;
   margin: 20px auto;
 }
 
-#payment .steps {
+.steps {
   padding-left: 240px;
 }
 
-#payment .steps .step-number {
+.steps .step-number {
   display: inline-block;
   padding: 10px 16px;
   background-color: #888;
@@ -1314,15 +1314,11 @@ article h4:hover {
   color: #f2f2f2;
 }
 
-#payment .steps .step-number:last-child {
+.steps .step-number:last-child {
   padding: 10px 12px;
 }
 
-#payment .what-you-need .text-terms {
-  padding-right: 220px;
-}
-
-#payment .steps .current-step {
+.steps .current-step {
   background-color: var(--logo-color);
 }
 
@@ -1331,15 +1327,40 @@ article h4:hover {
 }
 
 /* payment section */
-
 #payment .container {
   display: flex;
   padding: 10px;
 }
 
+#payment .what-you-need .text-terms {
+  padding-right: 220px;
+}
+
 #payment .container main {
-  padding: 1rem;
-  width: 70%;
+  padding: 1rem 0 1rem 8rem;
+}
+
+#payment .container aside {
+  margin-left: 40px;
+
+}
+
+#payment aside img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+.fa-star {
+  color: var(--logo-color);
+}
+
+#payment aside .sales-price div {
+  display: flex;
+  margin-top: 30px;
+}
+
+#payment aside .sales-price div p:last-child {
+  padding-left: 50px;
 }
 
 #payment .container input,
@@ -1370,10 +1391,6 @@ article h4:hover {
   height: 20px;
 }
 
-#payment .container .step-info {
-  background-color: aliceblue;
-}
-
 #payment .container .step-info .form-group-inline {
   display: flex;
 }
@@ -1392,15 +1409,19 @@ article h4:hover {
   margin: 0.5rem 0;
 }
 
-.pb-0 {
-  padding-bottom: 0.5rem;
-}
-
 #payment .container .next-step-btn a input {
   color: #fff;
   background-color: rgba(8, 8, 161, 0.829);
   width: 100px;
   font-size: 1.3rem;
+}
+
+.pb-0 {
+  padding-bottom: 0.5rem;
+}
+
+.bg-light-blue {
+  background-color: rgba(184, 199, 194, 0.068);
 }
 
 /* utilities */
@@ -1411,29 +1432,6 @@ img {
 
 img:hover {
   transform: scale(1.05);
-}
-
-#payment aside {
-  margin-left: 40px;
-  width: 30%;
-}
-
-#payment aside img {
-  width: 350px;
-  border-radius: 50%;
-}
-
-.fa-star {
-  color: var(--logo-color);
-}
-
-#payment aside .sales-price div {
-  display: flex;
-  margin-top: 30px;
-}
-
-#payment aside .sales-price div p:last-child {
-  padding-left: 50px;
 }
 
 /* payment page 2 */
@@ -1517,8 +1515,8 @@ section.hotel-destination {
   color: #f2f2f2;
 }
 
-section.hotel-destination img {
-  width: 100%;
+section.hotel-destination .hotel-destination-details a img {
+  width: 60vw;
 }
 
 section.hotel-destination .hotel-destination-details {
@@ -1530,11 +1528,11 @@ section.hotel-destination .hotel-destination-details {
 }
 
 section.hotel-destination .hotel-destination-details .hotel-img {
-  width: 50vw;
+  overflow: hidden;
   position: relative;
 }
 
-/* golden charm hotel album picture section */
+/* nav bar hotel album */
 .hotel-pictures .hotel-pictures-sort {
   display: flex;
 }
@@ -1551,22 +1549,23 @@ section.hotel-destination .hotel-destination-details .hotel-img {
   border-bottom: 2px #fff solid;
 }
 
-.hotel-pictures .hotel-album {
+/* golden charm hotel album picture section */
+section#hotel-features {
+  background-color: var(--dark-color);
+}
+
+section#hotel-features {
+  width: 100%;
+  margin: auto;
+}
+
+section#hotel-features .hotel-album div img {
+  width: 220px;
+}
+
+section#hotel-features .hotel-album {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.hotel-pictures .hotel-album img {
-  transition: all 0.4s ease-in-out;
-}
-
-.hotel-pictures .hotel-album img:hover {
-  transform: scale(1.05);
-}
-
-footer.hotel-destination-footer .copy-right {
-  padding: 20px;
-  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 /* filter hotel section */

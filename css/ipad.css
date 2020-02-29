@@ -1,4 +1,4 @@
-@media(max-width : 768px) {
+@media(max-width : 769px) {
   #show-case .form-find form {
     width: 87%;
     margin-left: 25px;
@@ -24,17 +24,22 @@
     width: 300px;
   }
 
+  /* charm hotel */
   section.hotel-destination .hotel-destination-details {
     flex-direction: column;
     margin-left: 20px;
   }
 
   section.hotel-destination .hotel-destination-details .hotel-infos {
-    padding-left: 20px;
+    padding-left: 0px;
   }
 
   section.hotel-destination .hotel-destination-details .hotel-img {
-    width: 70vw;
+    width: 90vw;
+  }
+
+  section.hotel-destination .hotel-destination-details .hotel-img img {
+    width: 90vw;
   }
 
   .hotel-pictures .hotel-album {
@@ -102,22 +107,10 @@
   }
 
   /* payment */
-  #payment .container {
-    padding: 0;
-  }
 
-  #payment .container main {
-    width: 50%;
-  }
 
-  #payment aside {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-
-  #payment .steps .thin-bar {
-    width: 100px;
+  .steps .thin-bar {
+    width: 50px;
     height: 4px;
   }
 
@@ -125,12 +118,16 @@
     width: 240px;
   }
 
-  #payment .steps {
-    padding-left: 180px;
+  .steps {
+    padding-left: 200px;
   }
 
   #payment .steps .step-number {
     padding: 10px 16px;
+  }
+
+  #payment .container main {
+    padding-left: 2rem;
   }
 
   #payment .steps .step-number:last-child {
