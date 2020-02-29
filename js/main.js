@@ -7,15 +7,30 @@ function initMap() {
     zoom: 10
   });
 }
-
 // slide down nav-bar
 
-$(".show-bars").on("click",
+$("#header .show-bars").on("click",
   function () {
     $(".nav-bar").fadeToggle(300);
 });
 
+// slider image
+var indexImg = 0;
+var maxIndex = 9;
+function changeIndexImg() {
 
-
-  // 
-// filter hotel section tool
+}
+function changeStart() {
+  setInterval(function () {
+    var rand1 = Math.round(Math.random() * 8) + 1;
+    var rand2 = Math.round(Math.random() * 8) + 1;
+    var rand3 = Math.round(Math.random() * 8) + 1;
+    var imgs = document.querySelectorAll('#hot-hotel .hotel-image .image-items img');
+    imgs[0].src = './img/bed' + rand1 + '.jpg';
+    imgs[1].src = './img/bed' + rand2 + '.jpg';
+    imgs[2].src = './img/bed' + rand3 + '.jpg';
+  }, 2000);
+}
+$('#hot-hotel .hotel-image .next-hotel').on('click', () => {
+  changeIndexImg();
+})

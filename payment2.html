@@ -1,382 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mandalla | Thiên đường nghỉ dưỡng cho bạn và gia đình</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/tablets.css" />
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/landing_page.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
-      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  </head>
 
-  <body>
-    <header id="header">
-      <div class="header-container">
-        <nav class="main-nav" class="py-1">
-          <div class="main-logo-box">
-            <a class="main-nav-logo text-logo" href="index.html" id="logo" target="_blank">
-              <i class="fas fa-layer-group">
-              </i> MANDALA INN
-            </a>
-          </div>
-          <ul class="nav-bar">
-            <li>
-              <a href="index.html" class="current" target="_blank"> Trang chủ</a>
-            </li>
-            <li>
-              <a href="endow_details.html" target="_blank"> Khuyến mại</a>
-            </li>
-            <li>
-              <a href="news.html" target="_blank"> Tin tức</a>
-            </li>
-            <li>
-              <a href="index.html" target="_blank"> Giới thiệu</a>
-            </li>
-            <li>
-              <a href="news.html" target="_blank"> Liên hệ</a>
-            </li>
-            <li>
-              <a href="index.html" target="_blank">
-                <i class="fas fa-globe-americas"></i>
-                <i class="fas fa-sort-down"></i> Vietnamese
-              </a>
-              <ul class="sub-language">
-                <li><a href="#"></a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="index.html" target="_blank"><i class="fas fa-user"></i> Đăng nhập</a>
-            </li>
-            <li>
-              <a href="index.html" target="_blank"><i class="fas fa-user-plus"></i> Đăng ký</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="show-bars d-hidden">
-          <div class="show-bar show-bar-1"></div>
-          <div class="show-bar show-bar-2"></div>
-          <div class="show-bar show-bar-3"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mandalla | Thiên đường nghỉ dưỡng cho bạn và gia đình</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/tablets.css" />
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/landing_page.css">
+  <link rel="stylesheet" href="./css/ipad.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-container">
+      <nav class="main-nav" class="py-1">
+        <div class="main-logo-box">
+          <a class="main-nav-logo text-logo" href="index.html" id="logo" target="_blank">
+            <i class="fas fa-layer-group">
+            </i> MANDALA INN
+          </a>
         </div>
+        <ul class="nav-bar">
+          <li>
+            <a href="index.html" class="current" target="_blank"> Trang chủ</a>
+          </li>
+          <li>
+            <a href="endow_details.html" target="_blank"> Khuyến mại</a>
+          </li>
+          <li>
+            <a href="news.html" target="_blank"> Tin tức</a>
+          </li>
+          <li>
+            <a href="index.html" target="_blank"> Giới thiệu</a>
+          </li>
+          <li>
+            <a href="news.html" target="_blank"> Liên hệ</a>
+          </li>
+          <li>
+            <a href="index.html" target="_blank">
+              <i class="fas fa-globe-americas"></i>
+              <i class="fas fa-sort-down"></i> Vietnamese
+            </a>
+            <ul class="sub-language">
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="index.html" target="_blank"><i class="fas fa-user"></i> Đăng nhập</a>
+          </li>
+          <li>
+            <a href="index.html" target="_blank"><i class="fas fa-user-plus"></i> Đăng ký</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="show-bars d-hidden">
+        <div class="show-bar show-bar-1"></div>
+        <div class="show-bar show-bar-2"></div>
+        <div class="show-bar show-bar-3"></div>
       </div>
-    </header>
-    <!-- payment section -->
-    <section id="payment" class="">
-      <div class="steps step-1">
-        <span class="step-number">
-          1
-        </span>
-        <span class="thin-bar"></span>
-        <span class="step-number current-step">
-          2
-        </span>
-        <span class="thin-bar"></span>
-        <span class="step-number">
-          <i class="fas fa-check"></i>
-        </span>
-      </div>
-      <div class="container pb-5">
-        <main class="step-info step-2">
-          <div class="text-medium">
-            <span class="success-color"
-              ><i class="fas fa-lock"></i> Thanh toán an toàn</span
-            >
-            <span class="text-small"
-              >Tất cả thông tin thẻ đều được mã hóa, được bảo vệ và đảm bảo an
-              toàn.</span
-            >
+    </div>
+  </header>
+  <!-- payment section -->
+  <section id="payment">
+    <div class="steps step-2">
+      <span class="step-number">
+        1
+      </span>
+      <span class="thin-bar"></span>
+      <span class="step-number current-step">
+        2
+      </span>
+      <span class="thin-bar"></span>
+      <span class="step-number">
+        <i class="fas fa-check"></i>
+      </span>
+    </div>
+    <div class="container pb-5">
+      <main class="step-info step-2">
+        <div class="text-medium">
+          <span class="success-color"><i class="fas fa-lock"></i> Thanh toán an toàn</span>
+          <span class="text-small">Tất cả thông tin thẻ đều được mã hóa, được bảo vệ và đảm bảo an
+            toàn.</span>
+        </div>
+        <div class="pay">
+          <div class="pay-header my-2 py-2 pl-2">
+            <i class="far fa-money-bill-alt"></i> Thanh toán điện tử
           </div>
-          <div class="pay">
-            <div class="pay-header my-2 py-2 pl-2">
-              <i class="far fa-money-bill-alt"></i> Thanh toán điện tử
-            </div>
-            <div class="group-bank">
-              <img src="./img/bank.jpg" alt="" />
-              <img src="./img/bank8.jpg" alt="" />
-              <img src="./img/bank8.jpg" alt="" />
-              <img src="./img/bank8.jpg" alt="" />
-              <img src="./img/bank4.jpg" alt="" />
-              <img src="./img/backn5.jpg" alt="" />
-              <img src="./img/bank.jpg" alt="" />
-              <img src="./img/bank4 target="_blank".jpg" alt="" />
-              <img src="./img/bank4.jpg" alt="" />
-              <img src="./img/bank4.jpg" alt="" />
-            </div>
-            <div class="form-group mt-4 pl-2">
-              <form action="">
-                <div class="form-control">
-                  <input type="radio" name="credit" id="" class="d-inline" />
-                  <label>Thẻ tín dụng/Ghi nợ</label>
-                  <br />
-                  <input type="radio" name="credit" id="" class="d-inline" />
-                  <label>Thanh toán sau</label>
-                </div>
-                <div class="form-control ">
-                  <input type="checkbox" name="" id="" /> Nhận email khuyến mãi
-                  độc quyền từ Mandala Inn. Tôi có thể bỏ đăng ký này về sau như
-                  đã nêu trong
-                  <a href="index.html" class="text-info">Chính Sách Bảo Mật.</a>
-                </div>
-              </form>
-            </div>
-            <p class="extra-small-text pl-2 py-2">
-              Bằng cách tiếp tục, tôi đồng ý với Điều Khoản Sử Dụng của Mandala
-              Inn và thừa nhận chính sách bảo mật của họ.
-            </p>
+          <div class="group-bank">
+            <img src="./img/bank.jpg" alt="" />
+            <img src="./img/bank8.jpg" alt="" />
+            <img src="./img/bank8.jpg" alt="" />
+            <img src="./img/bank8.jpg" alt="" />
+            <img src="./img/bank4.jpg" alt="" />
+            <img src="./img/backn5.jpg" alt="" />
+            <img src="./img/bank.jpg" alt="" />
+            <img src="./img/bank4.jpg" target="_blank" alt="" />
+            <img src="./img/bank4.jpg" alt="" />
+            <img src="./img/bank4.jpg" alt="" />
           </div>
-          <a href="payment3.html" class="pay-btn my-5"
-            >Đặt và thanh toán ngay</a
-          >
-          <div class="pay-footer py-4">
-            <i class="fas fa-envelope"></i>
-            <span class="text-small">
-              Chúng tôi sẽ gởi xác nhận đặt phòng của bạn đến
-              doan.hai.lam@gmail.com
-            </span>
-          </div>
-          <div class="mt-4">
-            <a href="payment1.html" class="btn btn-outline"
-              >Quay lại chi tiết đặt Phòng</a
-            >
-          </div>
-        </main>
-        <aside class="hotel-info-choosed text-left">
-          <div class="card">
-            <a href="#"><img src="./img/bed5.jpg" alt=""/></a>
-            <div class="hotel-infos">
-              <h5 class="hotel-name py-0 text-medium ">
-                Hotel Dela Couple Sapa
-              </h5>
-              <p class="hotel-location">
-                <i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-                Son Str, Sapa, Lao Cai
-              </p>
-              <p class="hotel-rating">
-                <span class="hotel-star-number"
-                  >4 <i class="fas fa-star"></i
-                ></span>
-                <span class="hotel-feedback-numbers">100</span> (Đánh giá)
-                <span class="hotel-rating-type text-danger">Rất tốt</span>
-              </p>
-              <hr class="my-3" />
-            </div>
-
-            <div class="room-details">
-              <p class="text-medium">
-                26 thg 2 2020 - 27 thg 2 2020 (1 đêm)
-              </p>
-              <p class="text-small mt-1">
-                2 người trong phòng tập thể 6 giường - Nam & Nữ
-              </p>
-              <p class="my-1">
-                <i class="fas fa-users"> 1 Phòng , 2 người lớn </i>
-              </p>
-              <p class="my-1">
-                <i class="fas fa-user"> 1 Phòng , 1 người lớn </i>
-              </p>
-              <a href="search.html" class="switch-room success-color">
-                Đổi phòng
-              </a>
-              <hr class="my-3" />
-              <div class="form-group">
-                <form action="">
-                  <p class="text-small">
-                    Nếu bạn có mã khuyến mãi, xin vui lòng nhập vào ô bên dưới.
-                  </p>
-                  <label
-                    for="endow_code"
-                    class="text-medium mt-2 d-inline-block"
-                    >Hãy nhập mã khuyến mãi</label
-                  >
-                  <input type="text" />
-                </form>
+          <div class="form-group mt-4 pl-2">
+            <form action="">
+              <div class="form-control">
+                <input type="radio" name="credit" id="" class="d-inline" />
+                <label>Thẻ tín dụng/Ghi nợ</label>
+                <br />
+                <input type="radio" name="credit" id="" class="d-inline" />
+                <label>Thanh toán sau</label>
               </div>
-              <hr class="my-3" />
-              <div class="sales-price">
-                <p class="text-medium bg-red d-inline-block text-right">
-                  Giá giảm 75% hôm nay
-                </p>
-                <div class="sale-price">
-                  <p>
-                    Giá gốc (1 phòng x 1 đêm)
-                  </p>
-                  <p style="text-decoration: line-through;">
-                    162.205 ₫
-                  </p>
-                </div>
-                <div class="real-price success-color">
-                  <p><i class="fas fa-check"></i> Đã áp dụng phiếu giảm giá</p>
-                  <p>
-                    -62.453đ
-                  </p>
-                </div>
-                <div class="extra-price">
-                  <p>
-                     <p>Giá phí cọc 1 phòng/1 đêm</p>
-                      
-                  </p>
-                  <p>
-                    114.205 ₫
-                  </p>
-                </div>
-                <div class="total-price">
-                  <p>
-                    <p>
-                      Giá gốc(1 phòng/đêm)
-                    </p>
-                    
-                    <p class="text-extra-small text-light">
-                      Phí dịch vụ 10%, Thuế 7%
-                    </p>
-                  </p>
-                  <p>
-                    162.205 ₫
-                  </p>
-                </div>
+              <div class="form-control ">
+                <input type="checkbox" name="" id="" /> Nhận email khuyến mãi
+                độc quyền từ Mandala Inn. Tôi có thể bỏ đăng ký này về sau như
+                đã nêu trong
+                <a href="index.html" class="text-info">Chính Sách Bảo Mật.</a>
               </div>
-            </div>
+            </form>
           </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- sign up : enter email -->
-    <section id="sign-up" class="bg-dark my-5">
-      <div class="container py-1">
-        <form action="" method="POST" class="py-2">
-          <input type="email" name="email" id="" placeholder="Enter email" />
-          <input type="submit" class="btn btn-light" value="Đăng Ký" />
-        </form>
-        <div class="text-info">
-          <h4>
-            <i class="fas fa-envelope-open-text"></i> Các deal giảm giá đến 60%
-            sẽ được gửi đến inbox của bạn
-          </h4>
-          <p class="py-0">
-            Khi nhấp vào Đăng ký, bạn đồng ý với các Điều Khoản & Điều Kiện và
-            Chính Sách Bảo Mật của chúng tôi
+          <p class="extra-small-text pl-2 py-2">
+            Bằng cách tiếp tục, tôi đồng ý với Điều Khoản Sử Dụng của Mandala
+            Inn và thừa nhận chính sách bảo mật của họ.
           </p>
         </div>
-      </div>
-    </section>
-
-    <footer id="footer" class="py-5 text-white">
-      <div class="group-items">
-        <div class="item">
-          <ul>
-            <li>
-              <h5 class="main-nav-logo">
-                <a href="index.html" id="logo"
-                  ><i class="fas fa-layer-group"></i> MANDALA INN</a
-                >
-              </h5>
-            </li>
-            <li>
-              <p href="#">
-                Tầng 3 Grand Plza, 117 Trần Duy Hưng,Cầu Giấy, Hà Nội
+        <a href="payment3.html" class="pay-btn my-5">Đặt và thanh toán ngay</a>
+        <div class="pay-footer py-4">
+          <i class="fas fa-envelope"></i>
+          <span class="text-small">
+            Chúng tôi sẽ gởi xác nhận đặt phòng của bạn đến
+            doan.hai.lam@gmail.com
+          </span>
+        </div>
+        <div class="mt-4">
+          <a href="payment1.html" class="btn btn-outline">Quay lại chi tiết đặt Phòng</a>
+        </div>
+      </main>
+      <aside class="hotel-info-choosed text-left">
+        <div class="card">
+          <a href="#"><img src="./img/bed5.jpg" alt="" /></a>
+          <div class="hotel-infos">
+            <h5 class="hotel-name py-0 text-medium ">
+              Hotel Dela Couple Sapa
+            </h5>
+            <p class="hotel-location">
+              <i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
+              Son Str, Sapa, Lao Cai
+            </p>
+            <p class="hotel-rating">
+              <span class="hotel-star-number">4 <i class="fas fa-star"></i></span>
+              <span class="hotel-feedback-numbers">100</span> (Đánh giá)
+              <span class="hotel-rating-type text-danger">Rất tốt</span>
+            </p>
+            <hr class="my-3" />
+          </div>
+          <div class="room-details">
+            <p class="text-medium">
+              26 thg 2 2020 - 27 thg 2 2020 (1 đêm)
+            </p>
+            <p class="text-small mt-1">
+              2/ phòng/ 6 giường - Nam & Nữ
+            </p>
+            <p class="my-1">
+              <i class="fas fa-users"> 1 Phòng , 2 người lớn </i>
+            </p>
+            <p class="my-1">
+              <i class="fas fa-user"> 1 Phòng , 1 người lớn </i>
+            </p>
+            <a href="search.html" class="switch-room success-color">
+              Đổi phòng
+            </a>
+            <hr class="my-3" />
+            <div class="form-group">
+              <form action="">
+                <p class="text-small">
+                  Nếu bạn có mã khuyến mãi, xin vui lòng nhập vào ô bên dưới.
+                </p>
+                <label for="endow_code" class="text-medium mt-2 d-inline-block">Hãy nhập mã khuyến mãi</label>
+                <input type="text" />
+              </form>
+            </div>
+            <hr class="my-3" />
+            <div class="sales-price">
+              <p class="text-medium bg-red d-inline-block text-right">
+                Giá giảm 75% hôm nay
               </p>
-            </li>
-            <li>
-              <a href="#">Tel: (84-4) 3555.8999</a>
-            </li>
-            <li>
-              <a href="#">Email: contact@idji.vn</a>
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <ul>
-            <li>
-              <h5 class="main-nav-logo">
-                <a href="index.html" id="logo">Về MANDALA INN</a>
-              </h5>
-            </li>
-            <li>
-              <a href="#">Về chúng tôi </a>
-            </li>
-            <li>
-              <a href="#">Hợp tác cùng chúng tôi </a>
-            </li>
-            <li>
-              <a href="#">Cơ hội nghề nghiệp</a>
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <ul>
-            <li>
-              <h5>
-                <a href="index.html" id="logo">ĐỐI TÁC</a>
-              </h5>
-            </li>
-            <li>
-              <a href="#">Đối tác thanh toán </a>
-            </li>
-            <li>
-              <a href="#">Chương trình đại lý</a>
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <ul>
-            <li>
-              <h5>
-                <a href="index.html" id="logo">ĐIỀU KHOẢN SỬ DỤNG</a>
-              </h5>
-            </li>
-            <li>
-              <a href="#">Điều khoản sử dụng </a>
-            </li>
-            <li>
-              <a href="#">Quyền riêng tư </a>
-            </li>
-            <li>
-              <a href="#">Chính sách bảo mật </a>
-            </li>
-          </ul>
-        </div>
-        <div class="item">
-          <ul>
-            <li>
-              <h5>
-                <a href="index.html" id="logo">TẢI ỨNG DỤNG MANDALA INN</a>
-              </h5>
-            </li>
-            <li class="footer-group-icon-apps">
-              <a href="#"><i class="fas fa-qrcode"></i></a>
-              <a href="#"><i class="fab fa-apple"></i></a>
-              <a href="#"><i class="fab fa-google-play"></i></a>
-            </li>
-            <li>
-              <h5>
-                <a href="index.html" id="logo">Kết nối với chúng tôi</a>
-              </h5>
-            </li>
-            <li class="footer-group-icon-socials">
-              <a href="#"><i class="fab fa-facebook"></i> </a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"> <i class="fab fa-twitter"></i></a>
-              <a href="#"> <i class="far fa-envelope"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <p class="copy-right text-center my-1">
-        Copyright &copy; 2020 by Mandalla.vn . All rights reserved
-      </p>
-    </footer>
+              <div class="sale-price">
+                <p>
+                  Giá gốc (1 phòng x 1 đêm)
+                </p>
+                <p style="text-decoration: line-through;">
+                  162.205 ₫
+                </p>
+              </div>
+              <div class="real-price success-color">
+                <p><i class="fas fa-check"></i> Đã áp dụng phiếu giảm giá</p>
+                <p>
+                  -62.453đ
+                </p>
+              </div>
+              <div class="extra-price">
+                <p>
+                  <p>Giá phí cọc 1 phòng/1 đêm</p>
 
-    <script src="./js/main.js"></script>
-  </body>
+                </p>
+                <p>
+                  114.205 ₫
+                </p>
+              </div>
+              <div class="total-price">
+                <p>
+                  <p>
+                    Giá gốc(1 phòng/đêm)
+                  </p>
+
+                  <p class="text-extra-small text-light">
+                    Phí dịch vụ 10%, Thuế 7%
+                  </p>
+                </p>
+                <p>
+                  162.205 ₫
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- sign up : enter email -->
+  <section id="sign-up" class="bg-dark my-5">
+    <div class="container py-1">
+      <form action="" method="POST" class="py-2">
+        <input type="email" name="email" id="" placeholder="Enter email" />
+        <input type="submit" class="btn btn-light" value="Đăng Ký" />
+      </form>
+      <div class="text-info">
+        <h4>
+          <i class="fas fa-envelope-open-text"></i> Các deal giảm giá đến 60%
+          sẽ được gửi đến inbox của bạn
+        </h4>
+        <p class="py-0">
+          Khi nhấp vào Đăng ký, bạn đồng ý với các Điều Khoản & Điều Kiện và
+          Chính Sách Bảo Mật của chúng tôi
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="py-5 text-white">
+    <div class="group-items">
+      <div class="item">
+        <ul>
+          <li>
+            <h5 class="main-nav-logo">
+              <a href="index.html" id="logo"><i class="fas fa-layer-group"></i> MANDALA INN</a>
+            </h5>
+          </li>
+          <li>
+            <p href="#">
+              Tầng 3 Grand Plza, 117 Trần Duy Hưng,Cầu Giấy, Hà Nội
+            </p>
+          </li>
+          <li>
+            <a href="#">Tel: (84-4) 3555.8999</a>
+          </li>
+          <li>
+            <a href="#">Email: contact@idji.vn</a>
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <ul>
+          <li>
+            <h5 class="main-nav-logo">
+              <a href="index.html" id="logo">Về MANDALA INN</a>
+            </h5>
+          </li>
+          <li>
+            <a href="#">Về chúng tôi </a>
+          </li>
+          <li>
+            <a href="#">Hợp tác cùng chúng tôi </a>
+          </li>
+          <li>
+            <a href="#">Cơ hội nghề nghiệp</a>
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <ul>
+          <li>
+            <h5>
+              <a href="index.html" id="logo">ĐỐI TÁC</a>
+            </h5>
+          </li>
+          <li>
+            <a href="#">Đối tác thanh toán </a>
+          </li>
+          <li>
+            <a href="#">Chương trình đại lý</a>
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <ul>
+          <li>
+            <h5>
+              <a href="index.html" id="logo">ĐIỀU KHOẢN SỬ DỤNG</a>
+            </h5>
+          </li>
+          <li>
+            <a href="#">Điều khoản sử dụng </a>
+          </li>
+          <li>
+            <a href="#">Quyền riêng tư </a>
+          </li>
+          <li>
+            <a href="#">Chính sách bảo mật </a>
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <ul>
+          <li>
+            <h5>
+              <a href="index.html" id="logo">TẢI ỨNG DỤNG MANDALA INN</a>
+            </h5>
+          </li>
+          <li class="footer-group-icon-apps">
+            <a href="#"><i class="fas fa-qrcode"></i></a>
+            <a href="#"><i class="fab fa-apple"></i></a>
+            <a href="#"><i class="fab fa-google-play"></i></a>
+          </li>
+          <li>
+            <h5>
+              <a href="index.html" id="logo">Kết nối với chúng tôi</a>
+            </h5>
+          </li>
+          <li class="footer-group-icon-socials">
+            <a href="#"><i class="fab fa-facebook"></i> </a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy-right text-center my-1">
+      Copyright &copy; 2020 by Mandalla.vn . All rights reserved
+    </p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
 </html>

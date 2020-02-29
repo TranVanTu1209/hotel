@@ -1,0 +1,159 @@
+@media(max-width : 768px) {
+  #show-case .form-find form {
+    width: 87%;
+    margin-left: 25px;
+  }
+
+  #hot-hotel .hotel-info .specific-info .hotel-address {
+    font-size: 0.9rem;
+  }
+
+  #hot-hotel .hotel-info .rank-hotel-info {
+    margin-top: 30px;
+  }
+
+  #room-types .room .type {
+    padding: 10px;
+  }
+
+  .artcicles .article .article-link img {
+    width: 300px;
+  }
+
+  .artcicles .article:first-child .article-link img {
+    width: 300px;
+  }
+
+  section.hotel-destination .hotel-destination-details {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  section.hotel-destination .hotel-destination-details .hotel-infos {
+    padding-left: 20px;
+  }
+
+  section.hotel-destination .hotel-destination-details .hotel-img {
+    width: 70vw;
+  }
+
+  .hotel-pictures .hotel-album {
+    grid-gap: 0.1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hotel-pictures .hotel-album img {
+    border-radius: 0;
+    width: 250px;
+  }
+
+  /* news */
+  #hot-news .news {
+    padding-right: 0;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  .news .news-right .item {
+    flex-direction: column;
+  }
+
+  .news .news-right .item .item-link h5 {
+    overflow: hidden;
+  }
+
+  .news .news-right .item img {
+    width: 200px;
+  }
+
+  #hot-news .news .news-left {
+    width: 55%;
+    position: relative;
+  }
+
+  .news-details-1 .container .news .news-right {
+    width: 40%;
+  }
+
+  .news .news-1-social-share-bottom a:last-child {
+    margin: 30px 0;
+  }
+
+  .news .news-right .item img {
+    width: 100px;
+  }
+
+  #sub-news .container {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  #sub-news .news-items {
+    margin-top: 20px;
+  }
+
+  #sub-news .news-items .item img {
+    width: 310px;
+    margin-bottom: 8px;
+  }
+
+  #sub-news .list-next-news {
+    margin: 15px auto;
+  }
+
+  /* payment */
+  #payment .container {
+    padding: 0;
+  }
+
+  #payment .container main {
+    width: 50%;
+  }
+
+  #payment aside {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  #payment .steps .thin-bar {
+    width: 100px;
+    height: 4px;
+  }
+
+  #payment aside img {
+    width: 240px;
+  }
+
+  #payment .steps {
+    padding-left: 180px;
+  }
+
+  #payment .steps .step-number {
+    padding: 10px 16px;
+  }
+
+  #payment .steps .step-number:last-child {
+    padding: 9px 12px;
+  }
+
+  #payment .container .step-info .form-group-inline {
+    flex-direction: column;
+  }
+
+  #payment .what-you-need .text-terms {
+    padding-right: 0px;
+  }
+
+  #payment .container input,
+  #payment .container textarea,
+  #payment .container select,
+  #payment .container main .form-group-inline .form-inline-control input {
+    width: 300px;
+  }
+
+  #payment .what-you-need .btn {
+    margin-left: 100px;
+  }
+
+}
