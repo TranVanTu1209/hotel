@@ -19,13 +19,6 @@ $("#header .show-bars").on("click",
   });
 
 // slider image
-var indexImg = 0;
-var maxIndex = 9;
-
-function changeIndexImg() {
-
-}
-
 function changeStart() {
   setInterval(function () {
     var rand1 = Math.round(Math.random() * 8) + 1;
@@ -37,8 +30,7 @@ function changeStart() {
     imgs[2].src = './img/bed' + rand3 + '.jpg';
   }, 2000);
 }
-
-function changeStart();
+changeStart();
 $('#hot-hotel .hotel-image .next-hotel').on('click', () => {
   changeIndexImg();
 })
