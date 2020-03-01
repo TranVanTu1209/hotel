@@ -1,9 +1,13 @@
 // google map deploy
-  // initialize a map
+// initialize a map
 var map;
+
 function initMap() {
   map = new google.maps.Map(document.querySelector('#list-hotels-result aside .hotel-map'), {
-    center: { lat: 34.397, lng: 20.644 },
+    center: {
+      lat: 34.397,
+      lng: 20.644
+    },
     zoom: 10
   });
 }
@@ -12,14 +16,16 @@ function initMap() {
 $("#header .show-bars").on("click",
   function () {
     $(".nav-bar").fadeToggle(300);
-});
+  });
 
 // slider image
 var indexImg = 0;
 var maxIndex = 9;
+
 function changeIndexImg() {
 
 }
+
 function changeStart() {
   setInterval(function () {
     var rand1 = Math.round(Math.random() * 8) + 1;
@@ -31,6 +37,8 @@ function changeStart() {
     imgs[2].src = './img/bed' + rand3 + '.jpg';
   }, 2000);
 }
+
+function changeStart();
 $('#hot-hotel .hotel-image .next-hotel').on('click', () => {
   changeIndexImg();
 })
