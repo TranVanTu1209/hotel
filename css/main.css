@@ -586,8 +586,6 @@ h4 {
   color: var(--dark-color);
   width: 90vw;
   margin: 10px auto;
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 #combo-deals .combo-deals-title i {
@@ -600,11 +598,11 @@ h4 {
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   padding-left: 10%;
-  padding-bottom: 0.5rem;
 }
 
 #combo-deals .cards img {
   width: 280px;
+
 }
 
 #combo-deals .cards img:hover {
@@ -638,6 +636,24 @@ h4 {
 
 #combo-deals .cards .card .hotel-infos .room-number-person {
   margin-bottom: 20px;
+}
+
+#combo-deals .cards .card .hotel-infos .choosed i {
+  color: green;
+}
+
+#combo-deals .cards .card .hotel-infos .choosed:hover i {
+  color: #f2f2f2;
+}
+
+#combo-deals .next-hotels {
+  font-size: 1.6rem;
+  padding: 8px 20px;
+}
+
+#combo-deals .next-hotels:hover {
+  background-color: var(--logo-color);
+  color: #f2f2f2;
 }
 
 .text-white {
@@ -853,13 +869,12 @@ article h4:hover {
 #support-customer-dialogue {
   position: sticky;
   width: 180px;
-  height: 110px;
+  height: 120px;
   background-color: #012619c4;
-  top: 10%;
+  top: 100px;
   left: 100%;
   border-radius: 5px;
   z-index: 1;
-  margin-bottom: 1rem;
 }
 
 /* news page */

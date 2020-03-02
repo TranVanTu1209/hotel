@@ -558,7 +558,7 @@
 @media(max-width : 400px) {
 
   /* social icon details news */
-  .news-details-1 .container .news .news-left .social-share a{
+  .news-details-1 .container .news .news-left .social-share a {
     margin-top: 0.4rem;
     display: inline-block;
   }

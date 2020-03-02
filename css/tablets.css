@@ -1,9 +1,11 @@
 /* tablets ip pro and more */
 @media (max-width : 1300px) {
+
   /* combo deals addition */
-   #combo-deals .cards {
-     padding-left: 2rem;
-   }
+  #combo-deals .cards {
+    padding-left: 2rem;
+  }
+
   /* news detail page 1 */
   .news-details-1 .container .news .news-left {
     margin-left: 2rem;
