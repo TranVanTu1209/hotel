@@ -975,21 +975,23 @@ article h4:hover {
 /* sub-news */
 #sub-news .container {
 	display: flex;
-	width: 80%;
+	width: 95%;
 	margin: auto;
 	flex-wrap: wrap;
 }
 
 #sub-news img {
-	width: 230px;
+	width: 90%;
 }
 
 #sub-news .news-items {
 	display: flex;
+	margin: 2rem 0;
 }
 
 #sub-news .item a {
 	color: #222;
+	margin: 1rem 0;
 }
 
 #sub-news .item h5 {
@@ -1753,6 +1755,7 @@ section#hotel-features .hotel-album {
 	background-color: rgb(13, 75, 13);
 	color: #f2f2f2;
 }
+
 .border-dashed {
 	border: 1px var(--secondary-color) dashed;
 	padding: 5px 18px;
