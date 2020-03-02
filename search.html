@@ -1,1337 +1,695 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Mandalla | Thiên đường nghỉ dưỡng cho bạn và gia đình</title>
-		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="stylesheet" href="./css/tablets.css" />
-		<link rel="stylesheet" href="./css/mobile.css" />
-		<link rel="stylesheet" href="./css/landing_page.css" />
-		<link rel="stylesheet" href="./css/ipad.css" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
-			integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandalla | Thiên đường nghỉ dưỡng cho bạn và gia đình</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-	<body>
-		<header id="header">
-			<div class="header-container">
-				<nav class="main-nav" class="py-1">
-					<div class="main-logo-box">
-						<a
-							class="main-nav-logo text-logo"
-							href="index.html"
-							id="logo"
-							target="_blank"
-						>
-							<i class="fas fa-layer-group"> </i> MANDALA INN
-						</a>
-					</div>
-					<ul class="nav-bar">
-						<li>
-							<a href="index.html" class="current" target="_blank">
-								Trang chủ</a
-							>
-						</li>
-						<li>
-							<a href="endow_details.html" target="_blank"> Khuyến mại</a>
-						</li>
-						<li>
-							<a href="news.html" target="_blank"> Tin tức</a>
-						</li>
-						<li>
-							<a href="index.html" target="_blank"> Giới thiệu</a>
-						</li>
-						<li>
-							<a href="news.html" target="_blank"> Liên hệ</a>
-						</li>
-						<li>
-							<a href="index.html" target="_blank">
-								<i class="fas fa-globe-americas"></i>
-								<i class="fas fa-sort-down"></i> Vietnamese
-							</a>
-							<ul class="sub-language">
-								<li><a href="#"></a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="index.html" target="_blank"
-								><i class="fas fa-user"></i> Đăng nhập</a
-							>
-						</li>
-						<li>
-							<a href="index.html" target="_blank"
-								><i class="fas fa-user-plus"></i> Đăng ký</a
-							>
-						</li>
-					</ul>
-				</nav>
-				<div class="show-bars d-hidden">
-					<div class="show-bar show-bar-1"></div>
-					<div class="show-bar show-bar-2"></div>
-					<div class="show-bar show-bar-3"></div>
-				</div>
-			</div>
-		</header>
-		<!-- show case area -->
-		<div id="show-case">
-			<div class="header-showcase text-center">
-				<h1 class="header-showcase-title">
-					Chuỗi khách sạn nhượng quyền hàng đầu Việt Nam
-				</h1>
-				<p class="header-showcase-text py-1">
-					Hơn 1000 phòng khách sạn 5 sao chuẩn quốc tế
-				</p>
-			</div>
-			<div class="form-find py-3">
-				<form action="" class="form-group-search">
-					<input type="text" placeholder="Tìm khách sạn, thành phố gần nhất" />
-					<input type="text" placeholder="T2, 17/02 - T3, 18/02" />
-					<input type="text" placeholder="2 phòng,1 người lớn,2 trẻ em" />
-					<input type="text" placeholder="Khách sạn 5 sao" />
-					<input type="submit" class="btn submit-btn" value="Tìm kiếm" />
-				</form>
-				<p class="text-center text-logo py-3">
-					Có
-					<span class="number-hotel-ok">
-						100
-					</span>
-					khách sạn vừa ý bạn
-				</p>
-			</div>
-		</div>
-		<!-- subheader in search engine -->
-		<section id="sub-header">
-			<div class="container">
-				<nav class="sub-nav py-5">
-					<ul class="nav-bar">
-						<li>
-							<a href="index.html"
-								>Trang chủ <i class="fas fa-chevron-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="index.html">
-								Khách sạn Việt Nam<i class="fas fa-chevron-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="index.html">
-								Khách sạn Hà Nội <i class="fas fa-chevron-right"></i>
-							</a>
-						</li>
-						<li>
-							<a href="index.html">Golden Sun Hotel</a>
-						</li>
-						<li>
-							<a href="search_results.html" class="text-logo " target="_blank"
-								>Xem tất cả 100 khách sạn</a
-							>
-						</li>
-					</ul>
-				</nav>
-				<hr />
-			</div>
-		</section>
-		<!-- most hot hotel sections -->
-		<section id="hot-hotel" class="text-dark py-5">
-			<div class="hotel-info">
-				<div class="specific-info">
-					<span class="card-hot-type bg-red">
-						Đang đắt hàng
-					</span>
-					<h4 class="hotel-name py-2">
-						Khách Sạn và Spa Charm Hà Nội (Hanoi Charm Hotel and Spa)
-						<i class="fas fa-star logo-color"></i>
-						<i class="fas fa-star logo-color"></i>
-						<i class="fas fa-star logo-color"></i>
-						<i class="fas fa-star logo-color"></i>
-						<i class="fas fa-star logo-color"></i>
-					</h4>
-					<p class="hotel-address">
-						1B phố Tố Tịch, phường Hàng Gai, quận Hoàn Kiếm, Hà Nội, Phố Cổ, Hà
-						Nội, Việt Nam, 70000 -
-						<a href="https://www.google.com/maps" class="text-small"
-							>Xem trên bản đồ</a
-						>
-					</p>
-				</div>
-				<div class="rank-hotel-info">
-					<div class="rating">
-						<div class="rating-number">
-							<span class="box-rating-number mx-3 bg-success">8.4</span>
-							<p class="rating-text my-3 text-danger">Tuyệt vời</p>
-						</div>
-						<div class="rating-info">
-							<i class="fas fa-award"></i>
-							<span class="success-color">Được xếp hạng 501</span> trong số
-							8.070 chỗ nghỉ tại Hà Nội đối với du khách
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- slider image  -->
-			<div class="hotel-image">
-				<div class="image-items">
-					<div class="item">
-						<img src="./img/bed3.jpg" alt="" />
-					</div>
-					<div class="item">
-						<img src="./img/bed4.jpg" alt="" />
-					</div>
-					<div class="item">
-						<img src="./img/bed5.jpg" alt="" />
-					</div>
-				</div>
-				<button class="next-hotel hotel-next-right" onclick="changeStart()">
-					<i class="fas fa-chevron-right fa-3x"></i>
-				</button>
-				<button class="next-hotel hotel-next-left" onclick="changeStart()">
-					<i class="fas fa-chevron-left fa-3x"></i>
-				</button>
-			</div>
-		</section>
-		<!-- room types section -->
-		<section id="room-types" class=" text-dark">
-			<div class="container">
-				<div class="room-type py-2 text-center">
-					<h4 class="room-type-header">
-						6 loại phòng và tổng cộng 11 lựa chọn
-					</h4>
-					<p>
-						*Giá không bao gồm thuế & phí
-					</p>
-				</div>
-				<!-- room1 -->
-				<div class="room text-left mt-6">
-					<h4 class="room-name my-3 text-medium text-left">
-						Phòng Deluxe hướng thành phố (Deluxe City View)
-					</h4>
-					<div class="type">
-						<div class="room-details">
-							<p>
-								Loại phòng
-							</p>
-							<div class="inner  pt-4">
-								<img src="./img/bed5.jpg" alt="" />
-								<p>
-									<a href="#" class="success-color">Xem ảnh và chi tiết</a>
-								</p>
-								<ul>
-									<li><i class="fas fa-bed"></i> 1 giường đôi</li>
-									<li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
-									<li><i class="fas fa-bed"></i> Bồn tắm</li>
-									<li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
-								</ul>
-							</div>
-						</div>
-						<div class="price-details">
-							<p class="">
-								Giá bao gồm
-							</p>
-							<div class="inner pt-4">
-								<p>Lợi ích</p>
-								<ul>
-									<li>
-										<i class="fas fa-check success-color"></i> Bữa sáng cho 02
-										người
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Thanh toán sau 2
-										ngày
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Wifi miễn phí
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Miễn phí hủy
-										phòng trước 1/3/2020
-									</li>
-								</ul>
-								<p class="my-1">
-									Giảm giá
-								</p>
-								<h5 class="text-danger">
-									Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
-								</h5>
-								<p class="text-danger">Giá phòng giảm 45%!</p>
-							</div>
-						</div>
-						<div class="price">
-							<p>
-								Giá phòng/ Đêm
-							</p>
-							<div class="inner mt-4">
-								<h5 class="bg-red d-inline-block">GIẢM 75%</h5>
-								<p class="mt-2">Giá mỗi đêm từ</p>
-								<h5
-									class="price text-light"
-									style="text-decoration: line-through;"
-								>
-									2.308.475đ
-								</h5>
-								<h4 class="text-danger text-medium">658.15đ</h4>
-								<a href="#" class="success-color">Huỷ miễn phí</a>
-							</div>
-						</div>
-						<div class="choices">
-							<p>
-								Lựa chọn
-							</p>
-							<div class="inner mt-4">
-								<div class="amount">
-									<label for="amount-people" class="d-block my-2"
-										>Số người
-									</label>
-									<input
-										type="number"
-										class="d-inline-block"
-										name=""
-										id="amount-pepple"
-										placeholder="1"
-									/>
-								</div>
-								<div class="get-hotel">
-									<a href="#" class="btn my-3">Đặt phòng</a>
-									<p class="text-danger">Còn lại 2 phòng</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- room 2 -->
-				<div class="room text-left mt-6">
-					<h4 class="room-name my-3 text-medium text-left">
-						Phòng Deluxe hướng thành phố (Deluxe City View)
-					</h4>
-					<div class="type">
-						<div class="room-details">
-							<p>
-								Loại phòng
-							</p>
-							<div class="inner  pt-4">
-								<img src="./img/bed8.jpg" alt="" />
-								<p>
-									<a href="#" class="success-color">Xem ảnh và chi tiết</a>
-								</p>
-								<ul>
-									<li><i class="fas fa-bed"></i> 1 giường đôi</li>
-									<li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
-									<li><i class="fas fa-bed"></i> Bồn tắm</li>
-									<li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
-								</ul>
-							</div>
-						</div>
-						<div class="price-details">
-							<p class="">
-								Giá bao gồm
-							</p>
-							<div class="inner pt-4">
-								<p>Lợi ích</p>
-								<ul>
-									<li>
-										<i class="fas fa-check success-color"></i> Bữa sáng cho 02
-										người
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Thanh toán sau 2
-										ngày
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Wifi miễn phí
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Miễn phí hủy
-										phòng trước 1/3/2020
-									</li>
-								</ul>
-								<p class="my-1">
-									Giảm giá
-								</p>
-								<h5 class="text-danger">
-									Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
-								</h5>
-								<p class="text-danger">Giá phòng giảm 45%!</p>
-							</div>
-						</div>
-						<div class="price">
-							<p>
-								Giá phòng/ Đêm
-							</p>
-							<div class="inner mt-4">
-								<h5 class="bg-red d-inline-block">GIẢM 75%</h5>
-								<p class="mt-2">Giá mỗi đêm từ</p>
-								<h5
-									class="price text-light"
-									style="text-decoration: line-through;"
-								>
-									2.308.475đ
-								</h5>
-								<h4 class="text-danger text-medium">658.15đ</h4>
-								<a href="#" class="success-color">Huỷ miễn phí</a>
-							</div>
-						</div>
-						<div class="choices">
-							<p>
-								Lựa chọn
-							</p>
-							<div class="inner mt-4">
-								<div class="amount">
-									<label for="amount-people" class="d-block my-2"
-										>Số người
-									</label>
-									<input
-										type="number"
-										class="d-inline-block"
-										name=""
-										id="amount-pepple"
-										placeholder="1"
-									/>
-								</div>
-								<div class="get-hotel">
-									<a href="#" class="btn my-3">Đặt phòng</a>
-									<p class="text-danger">Còn lại 2 phòng</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- room 3 -->
-				<div class="room text-left mt-6">
-					<h4 class="room-name my-3 text-medium text-left">
-						Phòng Deluxe hướng thành phố (Deluxe City View)
-					</h4>
-					<div class="type">
-						<div class="room-details">
-							<p>
-								Loại phòng
-							</p>
-							<div class="inner  pt-4">
-								<img src="./img/bed2.jpg" alt="" />
-								<p>
-									<a href="#" class="success-color">Xem ảnh và chi tiết</a>
-								</p>
-								<ul>
-									<li><i class="fas fa-bed"></i> 1 giường đôi</li>
-									<li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
-									<li><i class="fas fa-bed"></i> Bồn tắm</li>
-									<li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
-								</ul>
-							</div>
-						</div>
-						<div class="price-details">
-							<p class="">
-								Giá bao gồm
-							</p>
-							<div class="inner pt-4">
-								<p>Lợi ích</p>
-								<ul>
-									<li>
-										<i class="fas fa-check success-color"></i> Bữa sáng cho 02
-										người
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Thanh toán sau 2
-										ngày
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Wifi miễn phí
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Miễn phí hủy
-										phòng trước 1/3/2020
-									</li>
-								</ul>
-								<p class="my-1">
-									Giảm giá
-								</p>
-								<h5 class="text-danger">
-									Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
-								</h5>
-								<p class="text-danger">Giá phòng giảm 45%!</p>
-							</div>
-						</div>
-						<div class="price">
-							<p>
-								Giá phòng/ Đêm
-							</p>
-							<div class="inner mt-4">
-								<h5 class="bg-red d-inline-block">GIẢM 75%</h5>
-								<p class="mt-2">Giá mỗi đêm từ</p>
-								<h5
-									class="price text-light"
-									style="text-decoration: line-through;"
-								>
-									2.308.475đ
-								</h5>
-								<h4 class="text-danger text-medium">658.15đ</h4>
-								<a href="#" class="success-color">Huỷ miễn phí</a>
-							</div>
-						</div>
-						<div class="choices">
-							<p>
-								Lựa chọn
-							</p>
-							<div class="inner mt-4">
-								<div class="amount">
-									<label for="amount-people" class="d-block my-2"
-										>Số người
-									</label>
-									<input
-										type="number"
-										class="d-inline-block"
-										name=""
-										id="amount-pepple"
-										placeholder="1"
-									/>
-								</div>
-								<div class="get-hotel">
-									<a href="#" class="btn my-3">Đặt phòng</a>
-									<p class="text-danger">Còn lại 2 phòng</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- room 4 -->
-				<div class="room text-left mt-6">
-					<h4 class="room-name my-3 text-medium text-left">
-						Phòng Deluxe hướng thành phố (Deluxe City View)
-					</h4>
-					<div class="type">
-						<div class="room-details">
-							<p>
-								Loại phòng
-							</p>
-							<div class="inner  pt-4">
-								<img src="./img/bed4.jpg" alt="" />
-								<p>
-									<a href="#" class="success-color">Xem ảnh và chi tiết</a>
-								</p>
-								<ul>
-									<li><i class="fas fa-bed"></i> 1 giường đôi</li>
-									<li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
-									<li><i class="fas fa-bed"></i> Bồn tắm</li>
-									<li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
-								</ul>
-							</div>
-						</div>
-						<div class="price-details">
-							<p class="">
-								Giá bao gồm
-							</p>
-							<div class="inner pt-4">
-								<p>Lợi ích</p>
-								<ul>
-									<li>
-										<i class="fas fa-check success-color"></i> Bữa sáng cho 02
-										người
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Thanh toán sau 2
-										ngày
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Wifi miễn phí
-									</li>
-									<li>
-										<i class="fas fa-check success-color"></i> Miễn phí hủy
-										phòng trước 1/3/2020
-									</li>
-								</ul>
-								<p class="my-1">
-									Giảm giá
-								</p>
-								<h5 class="text-danger">
-									Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
-								</h5>
-								<p class="text-danger">Giá phòng giảm 45%!</p>
-							</div>
-						</div>
-						<div class="price">
-							<p>
-								Giá phòng/ Đêm
-							</p>
-							<div class="inner mt-4">
-								<h5 class="bg-red d-inline-block">GIẢM 75%</h5>
-								<p class="mt-2">Giá mỗi đêm từ</p>
-								<h5
-									class="price text-light"
-									style="text-decoration: line-through;"
-								>
-									2.308.475đ
-								</h5>
-								<h4 class="text-danger text-medium">658.15đ</h4>
-								<a href="#" class="success-color">Huỷ miễn phí</a>
-							</div>
-						</div>
-						<div class="choices">
-							<p>
-								Lựa chọn
-							</p>
-							<div class="inner mt-4">
-								<div class="amount">
-									<label for="amount-people" class="d-block my-2"
-										>Số người
-									</label>
-									<input
-										type="number"
-										class="d-inline-block"
-										name=""
-										id="amount-pepple"
-										placeholder="1"
-									/>
-								</div>
-								<div class="get-hotel">
-									<a href="#" class="btn my-3">Đặt phòng</a>
-									<p class="text-danger">Còn lại 2 phòng</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr class="my-3" />
-		<!-- section experience -->
-		<section id="experiences" class="mt-6 text-dark">
-			<div class="container">
-				<div class="box box-1">
-					<div class="description-banner">
-						<img src="./img/cham_bed.jpg" alt="" />
-						<a href="news.html" class="btn mt-2">Tìm phòng trống</a>
-						<div class="description-text">
-							<h4 class="description-text-title text-large">
-								Kinh nghiệm du lịch
-							</h4>
-							<p>
-								Hotel & Spa Charm Hà Nội
-							</p>
-						</div>
-					</div>
-					<div class="description-details">
-						<h4 class="text-medium text-center">
-							Những kinh nghiệm du lịch đáng giá nhất
-						</h4>
-						<div class="text-description mt-2 text-left">
-							<p class="py-1">
-								Lorem Ipsum is simply dummy text of the printing and typesetting
-								industry. Lorem Ipsum has been the industry's standard dummy
-								text ever since the 1500s, when an unknown printer took a galley
-							</p>
-							<p class="py-1">
-								It was popularised in the 1960s with the release of Letraset
-								sheets containing Lorem Ipsum passages, and more recently with
-								desktop publishing software like Aldus PageMaker including
-								versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum
-								Lorem, ipsum. Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit. Illo, ipsam minima totam delectus nam aliquam
-								velit dolor doloremque ut quod.
-							</p>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav id="main-nav" class="py-1">
+          <h5 class="main-nav-logo">
+            <a href="index.html" id="logo"
+              ><i class="fas fa-layer-group"></i> MANDALA INN</a
+            >
+          </h5>
+          <ul class="nav-bar">
+            <li>
+              <a href="index.html"> Trang chủ</a>
+            </li>
+            <li>
+              <a href="index.html"> Khuyến mại</a>
+            </li>
+            <li>
+              <a href="news.html"> Tin tức</a>
+            </li>
+            <li>
+              <a href="index.html"> Giới thiệu</a>
+            </li>
+            <li>
+              <a href="news.html"> Liên hệ</a>
+            </li>
+            <li>
+              <a href="index.html">
+                <i class="fas fa-globe-americas"></i>
+                <i class="fas fa-sort-down"></i> Vietnamese
+              </a>
+              <ul class="sub-language">
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="index.html"><i class="fas fa-user"></i> Đăng nhập</a>
+            </li>
+            <li>
+              <a href="index.html"><i class="fas fa-user-plus"></i> Đăng ký</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-showcase">
+          <h1 class="header-showcase-title">
+            Chuỗi khách sạn nhượng quyền hàng đầu Việt Nam
+          </h1>
+          <p class="header-showcase-text py-1">
+            Hơn 1000 phòng khách sạn 5 sao chuẩn quốc tế
+          </p>
+        </div>
+        <div class="header-find py-3">
+          <form action="">
+            <input
+              type="text"
+              placeholder="Tìm khách sạn, thành phố  gần nhất"
+            />
+            <input type="text" placeholder="T2, 17/02 - T3, 18/02" />
+            <input type="text" placeholder="2 phòng,1 người lớn,2 trẻ em" />
+            <input type="text" placeholder="Khách sạn 5 sao" />
+            <div class="submit-btn">
+              <a href="search.html" class="btn btn-info">Tìm kiếm</a>
+            </div>
+          </form>
+          <p class="text-result text-danger py-3 text-center">
+            Có 100 khách sạn có phòng theo ý bạn
+          </p>
+        </div>
+      </div>
+    </header>
 
-							looked up one of the more obscure Latin words, consectetur, from a
-							Lorem Ipsum passage, and going through the cites of the word in
-							classical literature, discovered the undoubtable source. Lorem
-							Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-							Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-							Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. At, earum repellat. Similique consequatur minima harum
-							doloribus corrupti tenetur, recusandae rerum!
-						</div>
-						<a
-							href="golden_charm.html"
-							class="text-dark d-block btn-more-text mt-1"
-							>Xem thêm <i class="fas fa-chevron-down"></i
-						></a>
-					</div>
-				</div>
-				<hr class="my-3" />
-				<!-- facilities hotel section -->
-				<div class="facilities text-left">
-					<div class="facilities-header mx-2">
-						<p class="text-medium text-bold">Cơ sở vật chất</p>
-					</div>
-					<div class="facilities-details mx-4 mt-6">
-						<div class="vehicles">
-							<p class="text-small">
-								Phương tiện
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Dịch vụ taxi</li>
-								<li><i class="fas fa-check"></i> Đưa đón tại sân bay</li>
-								<li><i class="fas fa-check"></i> Đón tại chỗ</li>
-								<li><i class="fas fa-check"></i> Đưa đón miễn phí</li>
-							</ul>
-						</div>
-						<div class="internet">
-							<p class="text-small">
-								Kết nối internet
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Miễn phí wi-fi</li>
-								<li><i class="fas fa-check"></i> Wifi bảo trì thường xuyên</li>
-								<li><i class="fas fa-check"></i> Wifi tốc độ cao</li>
-							</ul>
-						</div>
-						<div class="language">
-							<p class="text-small">
-								Ngôn ngữ
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Tiếng Anh</li>
-								<li><i class="fas fa-check"></i> Tiếng Việt</li>
-								<li><i class="fas fa-check"></i> Tiếng Trung</li>
-								<li><i class="fas fa-check"></i> Tiếng Hàn</li>
-							</ul>
-						</div>
-						<div class="helps">
-							<p class="text-small">
-								Dịch vụ lễ tân
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Lễ tân 24h</li>
-								<li><i class="fas fa-check"></i> An ninh tuyệt đối</li>
+    <!-- subheader in search engine -->
+    <section id="sub-header">
+      <div class="container">
+        <nav class="sub-nav py-5">
+          <ul class="nav-bar">
+            <li>
+              <a href="index.html"
+                >Trang chủ <i class="fas fa-chevron-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="index.html">
+                Khách sạn Việt Nam(60000) <i class="fas fa-chevron-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="index.html">
+                Khách sạn Hà Nội(2300) <i class="fas fa-chevron-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="index.html"> Đặt phòng Golden Sun Hotel</a>
+            </li>
+          </ul>
+          <div class="more-hotels ">
+            <a href="index.html" class="text-logo "
+              >Xem tất cả 2300 khách sạn</a
+            >
+          </div>
+        </nav>
+        <hr />
+      </div>
+    </section>
+    <!-- most hot hote sections -->
+    <section id="hot-hotel" class="text-dark py-5">
+      <div class="hotel-info">
+        <div class="specific-info">
+          <span class="card-hot-type bg-red">
+            Đang bán chạy
+          </span>
+          <h4 class="hotel-name py-5">
+            Khách Sạn và Spa Charm Hà Nội (Hanoi Charm Hotel and Spa)
+            <i class="fas fa-star logo-color"></i>
+            <i class="fas fa-star logo-color"></i>
+            <i class="fas fa-star logo-color"></i>
+            <i class="fas fa-star logo-color"></i>
+            <i class="fas fa-star logo-color"></i>
+          </h4>
+          <p class="hotel-address">
+            1B phố Tố Tịch, phường Hàng Gai, quận Hoàn Kiếm, Hà Nội, Phố Cổ, Hà
+            Nội, Việt Nam, 70000 -
+            <a href="https://www.google.com/maps">XEM TRÊN BẢN ĐỒ</a>
+          </p>
+        </div>
+        <div class="rank-hotel-info">
+          <div class="rating">
+            <div class="rating-number  my-2">
+              <span class="box-rating-number mx-3  bg-success">8.4</span>
+              <p class="rating-text my-3 text-danger">Tuyệt vời</p>
+            </div>
 
-								<li><i class="fas fa-check"></i> Dịch vụ hướng dẫn khách</li>
-								<li><i class="fas fa-check"></i> Dịch vụ báo thức</li>
-								<li><i class="fas fa-check"></i> Dịch vụ đặt vé</li>
-							</ul>
-						</div>
-						<div class="clean">
-							<p class="text-small">
-								Dịch vụ dọn phòng
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Dịch vụ lau dọn phòng</li>
-								<li><i class="fas fa-check"></i> Dịch vụ là ủi</li>
-								<li><i class="fas fa-check"></i> Giặt khô</li>
-								<li><i class="fas fa-check"></i> Phục vụ hàng ngày</li>
-								<li><i class="fas fa-check"></i> Dịch vụ là ủi(là đồ)</li>
-							</ul>
-						</div>
-						<div class="other-services">
-							<p class="text-small">
-								Dịch vụ khác
-							</p>
-							<ul class="my-2 text-extra-small">
-								<li><i class="fas fa-check"></i> Phòng cách âm</li>
-								<li><i class="fas fa-check"></i> Máy điều hòa</li>
-								<li><i class="fas fa-check"></i> Phòng hút thuốc</li>
-								<li><i class="fas fa-check"></i> Phòng không hút thuốc</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+            <div class="rating-info">
+              <i class="fas fa-award"></i>
+              <span class="success-color">Được xếp hạng 501</span> trong số
+              8.070 chỗ nghỉ tại Hà Nội đối với du khách
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hotel-image">
+        <div class="image-items">
+          <div class="item">
+            <img src="./img/bed3.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="./img/bed4.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="./img/bed5.jpg" alt="" />
+          </div>
+        </div>
+        <button class="hotel-next-right">
+          <i class="fas fa-chevron-right fa-3x"></i>
+        </button>
+        <button class="hotel-next-left">
+          <i class="fas fa-chevron-left fa-3x"></i>
+        </button>
+      </div>
+    </section>
+    <!-- room types section -->
+    <section id="room-types" class=" text-dark">
+      <div class="container">
+      <h4 class="type-header my-1">
+        6 loại phòng và tổng cộng 11 lựa chọn
+      </h4>
+      <p>
+        *Giá không bao gồm thuế & phí
+      </p>
+      <!-- room1 -->
+      <div class="room text-left mt-6">
+        <h4 class="room-name my-3 text-medium text-left">
+          Phòng Deluxe hướng thành phố (Deluxe City View)
+        </h4> 
+      <div class="type">
+        <div class="room-details bg-light">
+          <p class="py-2 2 bg-light">
+            Loại phòng
+          </p>
+          <div class="inner">
+            <img src="./img/bed5.jpg" alt="" />
+            <p>
+              <a href="#" class="success-color">Xem ảnh và chi tiết</a>
+            </p>
+            <ul>
+              <li><i class="fas fa-bed"></i> 1 giường đôi</li>
+              <li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
+              <li><i class="fas fa-bed"></i> Bồn tắm</li>
+              <li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
+            </ul>
+          </div>
+        </div>
+        <div class="price-details">
+          <p class="py-2 bg-light">
+            Giá này đã bao gồm
+          </p>
+          <div class="inner">
+            <p class="my-3">Lợi ích</p>
+            <ul>
+              <li>
+                <i class="fas fa-check success-color"></i> Bữa sáng cho 02 người
+              </li>
+              <li>
+                <i class="fas fa-check success-color"></i> Thanh toán sau 2 ngày
+                
+              </li>
+              <li><i class="fas fa-check success-color"></i> Wifi miễn phí</li>
+              <li>
+                <i class="fas fa-check success-color"></i> Miễn phí hủy phòng
+                trước 1/3/2020
+              </li>
+            </ul>
+            <p class="my-3">
+              Giảm giá
+            </p>
+            <h5 class="text-danger">
+              Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
+            </h5>
+            <p class="text-danger">Giá phòng giảm 45%!</p>
+          </div>
+        </div>
+        <div class="price">
+          <p class="py-2 2 bg-light">
+            Giá phòng/ Đêm
+          </p>
+          <div class="inner">
+            <h5 class="bg-red d-inline-block my-3">GIẢM 75% HÔM NAY</h5>
+            <p>Giá mỗi đêm từ</p>
+            <h5 class="price text-light" style="text-decoration: line-through;">
+              2.308.475đ
+            </h5>
+            <h4 class="text-danger">658.15đ</h4>
+            <a href="#" class="success-color">Huỷ miễn phí</a>
+          </div>
+        </div>
+        <div class="amount">
+          <p class="py-2 2 bg-light">
+            Số lượng
+          </p>
+          <div class="inner">
+            <input type="number" class="d-inline-block" name="" id="" placeholder="1" />
+          </div>
+        </div>
+        <div class="choices">
+          <p class="py-2 bg-light">
+            Lựa chọn
+          </p>
+          <div class="inner">
+            <a href="#" class="btn d-inline-block my-3">Đặt phòng</a>
+            <p class="text-danger">Còn lại 2 phòng</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- room 2 -->
+      <div class="room text-left mt-6">
+        <h4 class="room-name my-3 text-medium text-left">
+          Phòng Deluxe hướng thành phố (Deluxe City View)
+        </h4>
+        <div class="type">
+          <div class="room-details bg-light">
+            <p class="py-2 2 bg-light">
+              Loại phòng
+            </p>
+            <div class="inner">
+              <img src="./img/bed5.jpg" alt="" />
+              <p>
+                <a href="#" class="success-color">Xem ảnh và chi tiết</a>
+              </p>
+              <ul>
+                <li><i class="fas fa-bed"></i> 1 giường đôi</li>
+                <li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
+                <li><i class="fas fa-bed"></i> Bồn tắm</li>
+                <li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="price-details">
+            <p class="py-2 bg-light">
+              Giá này đã bao gồm
+            </p>
+            <div class="inner">
+              <p class="my-3">Lợi ích</p>
+              <ul>
+                <li>
+                  <i class="fas fa-check success-color"></i> Bữa sáng cho 02 người
+                </li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Thanh toán sau 2 ngày
+      
+                </li>
+                <li><i class="fas fa-check success-color"></i> Wifi miễn phí</li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Miễn phí hủy phòng
+                  trước 1/3/2020
+                </li>
+              </ul>
+              <p class="my-3">
+                Giảm giá
+              </p>
+              <h5 class="text-danger">
+                Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
+              </h5>
+              <p class="text-danger">Giá phòng giảm 45%!</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="py-2 2 bg-light">
+              Giá phòng/ Đêm
+            </p>
+            <div class="inner">
+              <h5 class="bg-red d-inline-block my-3">GIẢM 75% HÔM NAY</h5>
+              <p>Giá mỗi đêm từ</p>
+              <h5 class="price text-light" style="text-decoration: line-through;">
+                2.308.475đ
+              </h5>
+              <h4 class="text-danger">658.15đ</h4>
+              <a href="#" class="success-color">Huỷ miễn phí</a>
+            </div>
+          </div>
+          <div class="amount">
+            <p class="py-2 2 bg-light">
+              Số lượng
+            </p>
+            <div class="inner">
+              <input type="number" class="d-inline-block" name="" id="" placeholder="1" />
+            </div>
+          </div>
+          <div class="choices">
+            <p class="py-2 bg-light">
+              Lựa chọn
+            </p>
+            <div class="inner">
+              <a href="#" class="btn d-inline-block my-3">Đặt phòng</a>
+              <p class="text-danger">Còn lại 2 phòng</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- room 3 -->
+      <div class="room text-left mt-6">
+        <h4 class="room-name my-3 text-medium text-left">
+          Phòng Deluxe hướng thành phố (Deluxe City View)
+        </h4>
+        <div class="type">
+          <div class="room-details bg-light">
+            <p class="py-2 2 bg-light">
+              Loại phòng
+            </p>
+            <div class="inner">
+              <img src="./img/bed5.jpg" alt="" />
+              <p>
+                <a href="#" class="success-color">Xem ảnh và chi tiết</a>
+              </p>
+              <ul>
+                <li><i class="fas fa-bed"></i> 1 giường đôi</li>
+                <li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
+                <li><i class="fas fa-bed"></i> Bồn tắm</li>
+                <li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="price-details">
+            <p class="py-2 bg-light">
+              Giá này đã bao gồm
+            </p>
+            <div class="inner">
+              <p class="my-3">Lợi ích</p>
+              <ul>
+                <li>
+                  <i class="fas fa-check success-color"></i> Bữa sáng cho 02 người
+                </li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Thanh toán sau 2 ngày
+      
+                </li>
+                <li><i class="fas fa-check success-color"></i> Wifi miễn phí</li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Miễn phí hủy phòng
+                  trước 1/3/2020
+                </li>
+              </ul>
+              <p class="my-3">
+                Giảm giá
+              </p>
+              <h5 class="text-danger">
+                Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
+              </h5>
+              <p class="text-danger">Giá phòng giảm 45%!</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="py-2 2 bg-light">
+              Giá phòng/ Đêm
+            </p>
+            <div class="inner">
+              <h5 class="bg-red d-inline-block my-3">GIẢM 75% HÔM NAY</h5>
+              <p>Giá mỗi đêm từ</p>
+              <h5 class="price text-light" style="text-decoration: line-through;">
+                2.308.475đ
+              </h5>
+              <h4 class="text-danger">658.15đ</h4>
+              <a href="#" class="success-color">Huỷ miễn phí</a>
+            </div>
+          </div>
+          <div class="amount">
+            <p class="py-2 2 bg-light">
+              Số lượng
+            </p>
+            <div class="inner">
+              <input type="number" class="d-inline-block" name="" id="" placeholder="1" />
+            </div>
+          </div>
+          <div class="choices">
+            <p class="py-2 bg-light">
+              Lựa chọn
+            </p>
+            <div class="inner">
+              <a href="#" class="btn d-inline-block my-3">Đặt phòng</a>
+              <p class="text-danger">Còn lại 2 phòng</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- room 4 -->
+      <div class="room text-left mt-6">
+        <h4 class="room-name my-3 text-medium text-left">
+          Phòng Deluxe hướng thành phố (Deluxe City View)
+        </h4>
+        <div class="type">
+          <div class="room-details bg-light">
+            <p class="py-2 2 bg-light">
+              Loại phòng
+            </p>
+            <div class="inner">
+              <img src="./img/bed5.jpg" alt="" />
+              <p>
+                <a href="#" class="success-color">Xem ảnh và chi tiết</a>
+              </p>
+              <ul>
+                <li><i class="fas fa-bed"></i> 1 giường đôi</li>
+                <li><i class="fas fa-bed"></i> Diện tích phòng 35m2</li>
+                <li><i class="fas fa-bed"></i> Bồn tắm</li>
+                <li><i class="fas fa-bed"></i> 2 người lớn, 2 trẻ nhỏ</li>
+              </ul>
+            </div>
+          </div>
+          <div class="price-details">
+            <p class="py-2 bg-light">
+              Giá này đã bao gồm
+            </p>
+            <div class="inner">
+              <p class="my-3">Lợi ích</p>
+              <ul>
+                <li>
+                  <i class="fas fa-check success-color"></i> Bữa sáng cho 02 người
+                </li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Thanh toán sau 2 ngày
+      
+                </li>
+                <li><i class="fas fa-check success-color"></i> Wifi miễn phí</li>
+                <li>
+                  <i class="fas fa-check success-color"></i> Miễn phí hủy phòng
+                  trước 1/3/2020
+                </li>
+              </ul>
+              <p class="my-3">
+                Giảm giá
+              </p>
+              <h5 class="text-danger">
+                Ưu đãi chớp nhoáng : Khuyến mãi 72 giờ.
+              </h5>
+              <p class="text-danger">Giá phòng giảm 45%!</p>
+            </div>
+          </div>
+          <div class="price">
+            <p class="py-2 2 bg-light">
+              Giá phòng/ Đêm
+            </p>
+            <div class="inner">
+              <h5 class="bg-red d-inline-block my-3">GIẢM 75% HÔM NAY</h5>
+              <p>Giá mỗi đêm từ</p>
+              <h5 class="price text-light" style="text-decoration: line-through;">
+                2.308.475đ
+              </h5>
+              <h4 class="text-danger">658.15đ</h4>
+              <a href="#" class="success-color">Huỷ miễn phí</a>
+            </div>
+          </div>
+          <div class="amount">
+            <p class="py-2 2 bg-light">
+              Số lượng
+            </p>
+            <div class="inner">
+              <input type="number" class="d-inline-block" name="" id="" placeholder="1" />
+            </div>
+          </div>
+          <div class="choices">
+            <p class="py-2 bg-light">
+              Lựa chọn
+            </p>
+            <div class="inner">
+              <a href="#" class="btn d-inline-block my-3">Đặt phòng</a>
+              <p class="text-danger">Còn lại 2 phòng</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <hr class="my-3">
+    <!-- section experience -->
+    <section id="experiences" class="mt-6 text-dark">
+      <div class="container">
+        <div class="box box-1">
+          <div class="description-banner">
+          <img src="./img/cham_bed.jpg" alt="">
+            <a href="#" class="btn btn-outline mt-2 d-inline-block">Tìm phòng trống</a>
+          <div class="description-text">
+            <h4 class="exp text-large">Kinh nghiệm du lịch</h4>
+            <p>
+              Khách sạn & Spa Charm Hà Nội
+            </p>
+          </div>
+          </div>
+          <div class="description-details">
+            <h4 class="medium-text">Mô tả</h4>
+            <div class="text-description mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+              book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+              recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+              from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+              looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+              the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+              of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+              on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32.
+            </div>
+              <a href="#" class="text-dark d-inline-block mt-1">Xem thêm <i class="fas fa-chevron-down"></i></a>
+          </div>
+        </div>
+        <hr class="my-3">
+      </div>
+    </section>
+    <!-- sign up : enter email -->
+    <section id="sign-up" class="bg-dark my-5">
+      <div class="container py-1">
+        <form action="" method="POST" class="py-2">
+          <input type="email" name="email" id="" placeholder="Enter email" />
+          <input type="submit" class="btn btn-light" value="Đăng Ký" />
+        </form>
+        <div class="text-info">
+          <h4>
+            <i class="fas fa-envelope-open-text"></i> Các deal giảm giá đến 60%
+            sẽ được gửi đến inbox của bạn
+          </h4>
+          <p class="py-0">
+            Khi nhấp vào Đăng ký, bạn đồng ý với các Điều Khoản & Điều Kiện và
+            Chính Sách Bảo Mật của chúng tôi
+          </p>
+        </div>
+      </div>
+    </section>
 
-				<hr class="my-4" />
-				<!-- neccessary info -->
-				<div class="neccessary-info text-left">
-					<h3 class="neccessary-info-header text-medium">
-						Thông tin cần thiết
-					</h3>
-					<div class="detail-neccessary-info">
-						<p class="book-room-header text-small">
-							Nhận phòng/Trả phòng
-						</p>
-						<ul class="mt-2">
-							<li>
-								Nhận phòng từ :
-								<span class="time-get-room text-danger">14:00h</span>
-							</li>
-							<li>
-								Trả phòng từ :
-								<span class="time-remain-room text-danger">22:00h</span>
-							</li>
-						</ul>
-						<p class="header text-small mt-6">
-							Hủy phòng/Trả cước
-						</p>
-						<p class="text-extra-small mt-2">
-							Các loại phòng khác nhau có thể có các chính sách đặt hủy phòng
-							khác nhau. Vui lòng kiểm tra chi tiết các thông tin phía trên*.
-						</p>
-					</div>
-				</div>
-				<hr class="my-3" />
-				<!-- comments part -->
-				<div class="comments text-left my-4">
-					<div class="comment">
-						<div class="info-user py-2">
-							<p class="text-small">
-								<span class="bg-success comment-rating">8.3</span> Quá Tuyệt
-							</p>
-							<ul class="mt-4">
-								<li class="text-small">
-									<i class="fas fa-user"></i> Khách đến từ BN
-								</li>
-								<li class="text-extra-small mt-1">Đã ở 6 đêm vào 11/1/2020</li>
-							</ul>
-						</div>
-						<div class="text-user">
-							<div class="text-medium">
-								"Chắc chắn sẽ quay lại Hà Nội công tác"
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Corporis explicabo eveniet eum quis doloremque quos vero dolore
-								esse minus qui. Est expedita ut vitae fugit! Incidunt obcaecati
-								vero qui nam.
-							</p>
-						</div>
-					</div>
-					<div class="comment">
-						<div class="info-user py-2">
-							<p class="text-small">
-								<span class="bg-success comment-rating">8.3</span> Quá Tuyệt
-							</p>
-							<ul class="mt-4">
-								<li class="text-small">
-									<i class="fas fa-user"></i> Khách đến từ BN
-								</li>
-								<li class="text-extra-small mt-1">Đã ở 6 đêm vào 11/1/2020</li>
-							</ul>
-						</div>
-						<div class="text-user text-left">
-							<div class="text-medium">
-								"Khách sạn của tương lai là đây"
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Corporis explicabo eveniet eum quis doloremque quos vero dolore
-								esse minus qui. Est expedita ut vitae fugit! Incidunt obcaecati
-								vero qui nam.
-							</p>
-						</div>
-					</div>
-					<div class="comment">
-						<div class="info-user py-2">
-							<p class="text-small">
-								<span class="bg-success comment-rating">9.3</span> Wow
-							</p>
-							<ul class="mt-4">
-								<li class="text-small">
-									<i class="fas fa-user"></i> Khách đến từ BN
-								</li>
-								<li class="text-extra-small mt-1">Đã ở 1 đêm vào 21/1/2020</li>
-							</ul>
-						</div>
-						<div class="text-user text-left">
-							<div class="text-medium">
-								"Dịp sau đi du lịch tôi sẽ book khách sạn này"
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Corporis explicabo eveniet eum quis doloremque quos vero dolore
-								esse minus qui. Est expedita ut vitae fugit! Incidunt obcaecati
-								vero qui nam.
-							</p>
-						</div>
-					</div>
-					<div class="comment">
-						<div class="info-user py-2">
-							<p class="text-small">
-								<span class="bg-success comment-rating">6.3</span> Tuyệt vời
-							</p>
-							<ul class="mt-4">
-								<li class="text-small">
-									<i class="fas fa-user"></i> Khách đến từ BN
-								</li>
-								<li class="text-extra-small mt-1">Đã ở 6 đêm vào 11/1/20</li>
-							</ul>
-						</div>
-						<div class="text-user text-left">
-							<div class="text-medium">
-								"Dịch vụ của các bạn rất tuyệt vời. I like it"
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Corporis explicabo eveniet eum quis doloremque quos vero dolore
-								esse minus qui. Est expedita ut vitae fugit! Incidunt obcaecati
-								vero qui nam.
-							</p>
-						</div>
-					</div>
-					<div class="next-comment">
-						<a class="btn">
-							Trang kế tiếp <i class="fas fa-chevron-right"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-			<hr />
-		</section>
-		<div class="hotel-map text-center my-5">
-			<h1 class="text-medium">Map to hotel</h1>
-		</div>
-		<!-- section other hotels -->
-		<section id="other-hotels" class="my-5 text-dark">
-			<div class="container">
-				<h3 class="text-left">Khách sạn tương tự</h3>
-				<div class="cards mt-4 text-left">
-					<div class="card">
-						<a href="#" class="hotel-link">
-							<img src="./img/bed1.jpg" alt="" />
-							<h5 class="hotel-price">
-								<span class="hotel-price-sale text-danger">525.955đ</span>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium ">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
+    <footer id="footer" class="py-5 text-white">
+      <div class="group-items">
+        <div class="item">
+          <ul>
+            <li>
+              <h5 class="main-nav-logo">
+                <a href="index.html" id="logo"
+                  ><i class="fas fa-layer-group"></i> MANDALA INN</a
+                >
+              </h5>
+            </li>
+            <li>
+              <p href="#">
+                Tầng 3 Grand Plza, 117 Trần Duy Hưng,Cầu Giấy, Hà Nội
+              </p>
+            </li>
+            <li>
+              <a href="#">Tel: (84-4) 3555.8999</a>
+            </li>
+            <li>
+              <a href="#">Email: contact@idji.vn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul>
+            <li>
+              <h5 class="main-nav-logo">
+                <a href="index.html" id="logo">Về MANDALA INN</a>
+              </h5>
+            </li>
+            <li>
+              <a href="#">Về chúng tôi </a>
+            </li>
+            <li>
+              <a href="#">Hợp tác cùng chúng tôi </a>
+            </li>
+            <li>
+              <a href="#">Cơ hội nghề nghiệp</a>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul>
+            <li>
+              <h5>
+                <a href="index.html" id="logo">ĐỐI TÁC</a>
+              </h5>
+            </li>
+            <li>
+              <a href="#">Đối tác thanh toán </a>
+            </li>
+            <li>
+              <a href="#">Chương trình đại lý</a>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul>
+            <li>
+              <h5>
+                <a href="index.html" id="logo">ĐIỀU KHOẢN SỬ DỤNG</a>
+              </h5>
+            </li>
+            <li>
+              <a href="#">Điều khoản sử dụng </a>
+            </li>
+            <li>
+              <a href="#">Quyền riêng tư </a>
+            </li>
+            <li>
+              <a href="#">Chính sách bảo mật </a>
+            </li>
+          </ul>
+        </div>
+        <div class="item">
+          <ul>
+            <li>
+              <h5>
+                <a href="index.html" id="logo">TẢI ỨNG DỤNG MANDALA INN</a>
+              </h5>
+            </li>
+            <li class="footer-group-icon-apps">
+              <a href="#"><i class="fas fa-qrcode"></i></a>
+              <a href="#"><i class="fab fa-apple"></i></a>
+              <a href="#"><i class="fab fa-google-play"></i></a>
+            </li>
+            <li>
+              <h5>
+                <a href="index.html" id="logo">Kết nối với chúng tôi</a>
+              </h5>
+            </li>
+            <li class="footer-group-icon-socials">
+              <a href="#"><i class="fab fa-facebook"></i> </a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>
+              <a href="#"> <i class="far fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy-right text-center my-1">
+        Copyright &copy; 2020 by mandala.vn . All rights reserved
+      </p>
+    </footer>
 
-							<span class="bg-success my-2 d-inline-block">
-								7.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link">
-							<img src="./img/bed4.jpg" alt="" />
-							<h5 class="hotel-price ">
-								<span class="hotel-price-sale text-danger text-small"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link">
-							<img src="./img/bed3.jpg" alt="" />
-							<h5 class="hotel-price ">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link">
-							<img src="./img/bed2.jpg" alt="" />
-							<h5 class="hotel-price">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-				</div>
-
-				<!-- visited hotels-->
-				<h3 class="text-left mt-4">Khách sạn bạn đã xem</h3>
-				<div class="cards mt-4 text-left">
-					<div class="card">
-						<a href="#" class="hotel-link"
-							><img src="./img/bed5.jpg" alt="" />
-							<h5 class="hotel-price ">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium ">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success my-2 d-inline-block">
-								7.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link"
-							><img src="./img/bed4.jpg" alt="" />
-							<h5 class="hotel-price ">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link"
-							><img src="./img/bed3.jpg" alt="" />
-							<h5 class="hotel-price ">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-					<div class="card">
-						<a href="#" class="hotel-link"
-							><img src="./img/bed2.jpg" alt="" />
-							<h5 class="hotel-price">
-								<span class="hotel-price-sale text-danger text-medium"
-									>525.955đ</span
-								>
-								<p
-									class="hotel-price-real"
-									style="text-decoration: line-through;"
-								>
-									1.268.985đ
-								</p>
-								<p class="hotel-price-sale-percent bg-red d-inline-block">
-									Giảm <span class="hotel-price-sale-percent-number">60%</span>
-								</p>
-							</h5>
-						</a>
-						<div class="hotel-infos">
-							<h5 class="hotel-name py-0 text-medium">
-								Hotel Dela Couple Sapa
-							</h5>
-							<p class="hotel-location">
-								<i class="fas fa-map-marker-alt py-0 text-small"></i> Hoang Lien
-								Son Str, Sapa, Lao Cai
-							</p>
-							<p class="hotel-rating">
-								<span class="hotel-star-number"
-									>4 <i class="fas fa-star"></i
-								></span>
-								<span class="hotel-feedback-numbers">100</span> (Đánh giá)
-								<span class="hotel-rating-type text-danger">Rất tốt</span>
-							</p>
-
-							<span class="bg-success d-inline-block my-2">
-								9.5
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div>
-				<a href=""></a>
-			</div>
-		</section>
-		<!-- sign up : enter email -->
-		<section id="sign-up" class="bg-dark my-5">
-			<div class="container py-1">
-				<form action="" method="POST" class="py-2">
-					<input
-						type="email"
-						name="email"
-						id=""
-						placeholder="Email or phone number"
-					/>
-					<input type="submit" class="btn btn-light" value="Đăng Ký" />
-				</form>
-				<div class="text-info">
-					<h4>
-						<i class="fas fa-envelope-open-text"></i> Các deal giảm giá đến 60%
-						sẽ được gửi đến inbox của bạn
-					</h4>
-					<p class="py-0">
-						Khi nhấp vào Đăng ký, bạn đồng ý với các Điều Khoản & Điều Kiện và
-						Chính Sách Bảo Mật của chúng tôi
-					</p>
-				</div>
-			</div>
-		</section>
-
-		<footer id="footer" class="py-5 text-white">
-			<div class="group-items">
-				<div class="item">
-					<ul>
-						<li>
-							<h5 class="main-nav-logo">
-								<a href="index.html" id="logo"
-									><i class="fas fa-layer-group"></i> MANDALA INN</a
-								>
-							</h5>
-						</li>
-						<li>
-							<p href="#">
-								Tầng 3 Grand Plza, 117 Trần Duy Hưng,Cầu Giấy, Hà Nội
-							</p>
-						</li>
-						<li>
-							<a href="#">Tel: (84-4) 3555.8999</a>
-						</li>
-						<li>
-							<a href="#">Email: contact@idji.vn</a>
-						</li>
-					</ul>
-				</div>
-				<div class="item">
-					<ul>
-						<li>
-							<h5 class="main-nav-logo">
-								<a href="index.html" id="logo">Về MANDALA INN</a>
-							</h5>
-						</li>
-						<li>
-							<a href="#">Về chúng tôi </a>
-						</li>
-						<li>
-							<a href="#">Hợp tác cùng chúng tôi </a>
-						</li>
-						<li>
-							<a href="#">Cơ hội nghề nghiệp</a>
-						</li>
-					</ul>
-				</div>
-				<div class="item">
-					<ul>
-						<li>
-							<h5>
-								<a href="index.html" id="logo">ĐỐI TÁC</a>
-							</h5>
-						</li>
-						<li>
-							<a href="#">Đối tác thanh toán </a>
-						</li>
-						<li>
-							<a href="#">Chương trình đại lý</a>
-						</li>
-					</ul>
-				</div>
-				<div class="item">
-					<ul>
-						<li>
-							<h5>
-								<a href="index.html" id="logo">ĐIỀU KHOẢN SỬ DỤNG</a>
-							</h5>
-						</li>
-						<li>
-							<a href="#">Điều khoản sử dụng </a>
-						</li>
-						<li>
-							<a href="#">Quyền riêng tư </a>
-						</li>
-						<li>
-							<a href="#">Chính sách bảo mật </a>
-						</li>
-					</ul>
-				</div>
-				<div class="item">
-					<ul>
-						<li>
-							<h5>
-								<a href="index.html" id="logo">TẢI ỨNG DỤNG MANDALA INN</a>
-							</h5>
-						</li>
-						<li class="footer-group-icon-apps">
-							<a href="#"><i class="fas fa-qrcode"></i></a>
-							<a href="#"><i class="fab fa-apple"></i></a>
-							<a href="#"><i class="fab fa-google-play"></i></a>
-						</li>
-						<li>
-							<h5>
-								<a href="index.html" id="logo">Kết nối với chúng tôi</a>
-							</h5>
-						</li>
-						<li class="footer-group-icon-socials">
-							<a href="#"><i class="fab fa-facebook"></i> </a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-							<a href="#"> <i class="fab fa-twitter"></i></a>
-							<a href="#"> <i class="far fa-envelope"></i></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<p class="copy-right text-center my-1">
-				Copyright &copy; 2020 by mandala.vn . All rights reserved
-			</p>
-		</footer>
-
-		<script src="./js/main.js"></script>
-	</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
