@@ -1,33 +1,89 @@
 /* tablets ip pro and more */
 @media (max-width : 1300px) {
+  /* combo deals addition */
+   #combo-deals .cards {
+     padding-left: 2rem;
+   }
+  /* news detail page 1 */
+  .news-details-1 .container .news .news-left {
+    margin-left: 2rem;
+  }
+
+  .news-details-1 .container .news .news-right {
+    width: 40%;
+    margin-left: 2rem;
+  }
+
+  /* news main page  */
+  .news .news-right {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news .news-right img {
+    margin-bottom: 10px;
+  }
+
+  .news .news-right .item .item-link .item-link-title {
+    padding-right: 4rem;
+  }
+
+  .news .news-right .item img {
+    height: 80px;
+  }
+
+  #hot-news .news {
+    justify-content: space-around;
+  }
+
+  /* payment 2 */
+  .step-2-content .container {
+    flex-direction: column;
+  }
+
+  .step-2-content .container main .step-2-content .container aside {
+    /* margin-top: 2rem; */
+    padding-top: 2rem;
+    border-top: 1px solid #888;
+  }
+
   /* filter hotel */
-  
+
   #filter-hotel .group-choices ul .header-filter {
     display: none;
   }
+
   #list-hotels-result .container .sub-search-filter ul {
     font-size: 0.83rem;
   }
+
   #list-hotels-result .container aside .items .item {
     flex-direction: column;
   }
+
   #list-hotels-result .container aside .items .item img {
     width: 185px;
     margin-bottom: 10px;
   }
+
   #list-hotels-result main .hotel-items .item .hotel-item-content .hotel-item-img .header-img img {
     width: 300px;
     margin-bottom: 40px;
   }
+
   #list-hotels-result main .hotel-items .item .list-extra-img {
     width: 96%;
   }
+
   #list-hotels-result main .hotel-items .item .hotel-item-price {
     width: 20%;
   }
+
   #list-hotels-result main .hotel-items .item .hotel-item-info {
     margin-left: 10px;
   }
+
   /* header */
   #header .main-nav .nav-bar li {
     margin-top: 10px;
@@ -53,7 +109,6 @@
   }
 
   #sub-header .container .sub-nav .nav-bar li:last-child a {
-    color: var(--logo-color);
     margin-left: 50px;
   }
 
@@ -175,9 +230,6 @@
     flex-direction: column;
   }
 
-  .news .news-right .item .item-link h5 {
-    overflow: hidden;
-  }
 
   .news .news-right .item img {
     width: 200px;
@@ -299,7 +351,7 @@
 
   #combo-deals .cards {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 2rem;
   }
 
   #combo-deals .cards .card:nth-child(3) {

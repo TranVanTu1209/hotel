@@ -602,8 +602,7 @@ h4 {
 
 #combo-deals .cards img {
 	width: 280px;
-	border-radius: 5px;
-	transition: all 0.5s ease-in-out;
+
 }
 
 #combo-deals .cards img:hover {
@@ -625,12 +624,7 @@ h4 {
 }
 
 #combo-deals .cards .card .hotel-infos .hotel-price .hotel-price-sale,
-#combo-deals
-	.cards
-	.card
-	.hotel-infos
-	.hotel-price
-	.hotel-price-sale-percent-number {
+#combo-deals .cards .card .hotel-infos .hotel-price .hotel-price-sale-percent-number {
 	color: rgb(209, 19, 19);
 }
 
@@ -892,6 +886,7 @@ article h4:hover {
 #hot-news .news .news-left {
 	width: 70%;
 	position: relative;
+	line-height: 1.6;
 }
 
 .news .news-left .news-text {
@@ -909,10 +904,6 @@ article h4:hover {
 	width: 30%;
 }
 
-.news .news-right img {
-	width: 30%;
-	border-radius: 5px;
-}
 
 .news .news-right .item {
 	display: flex;
@@ -964,11 +955,6 @@ article h4:hover {
 	width: 100%;
 }
 
-.news-details-1 .container .news .news-left {
-	width: 60%;
-	line-height: 1.6;
-}
-
 .news-details-1 .container .news {
 	justify-content: space-between;
 }
@@ -991,11 +977,11 @@ article h4:hover {
 	display: flex;
 	width: 80%;
 	margin: auto;
+	flex-wrap: wrap;
 }
 
 #sub-news img {
 	width: 230px;
-	border-radius: 4px;
 }
 
 #sub-news .news-items {
@@ -1133,6 +1119,7 @@ article h4:hover {
 	width: 96%;
 	margin: auto;
 }
+
 #room-types .room {
 	border-bottom: 1px solid rgba(80, 78, 78, 0.426);
 }
@@ -1164,6 +1151,7 @@ article h4:hover {
 #room-types .type ul li {
 	margin-bottom: 8px;
 }
+
 #room-types .type p.py-2 {
 	padding-left: 15px;
 }
@@ -1176,6 +1164,7 @@ article h4:hover {
 #experiences .box {
 	display: flex;
 }
+
 #experiences .container {
 	width: 90%;
 	margin: auto;
@@ -1445,7 +1434,7 @@ img:hover {
 	transform: scale(1.05);
 }
 
-/* payment page 2 */
+/* payment 2 */
 
 #payment main.step-2 {
 	text-align: left;
@@ -1459,13 +1448,7 @@ img:hover {
 #payment main.step-2 .pay .group-bank img {
 	display: inline-block;
 	margin: 5px;
-	width: 138px;
-	transition: all 0.4s ease-in-out;
-	border-radius: 3px;
-}
-
-#payment main.step-2 .pay .group-bank img:hover {
-	transform: scale(1.05);
+	width: 149px;
 }
 
 #payment main.step-2 .pay-header {
@@ -1477,12 +1460,11 @@ img:hover {
 
 #payment main.step-2 .pay input[type="radio"] {
 	display: inline;
-	text-align: left;
 	width: 16px;
 	height: 16px;
 }
 
-#payment main.step-2 .pay input[type="radio"] + label {
+#payment main.step-2 .pay input[type="radio"]+label {
 	font-size: 1.3rem;
 }
 
@@ -1505,6 +1487,7 @@ img:hover {
 	font-weight: 600;
 }
 
+/* payment 3 */
 #payment main.step-3 .success-notification {
 	display: flex;
 	flex-direction: column;
@@ -1514,9 +1497,9 @@ img:hover {
 }
 
 #payment main.step-3 .success-notification .icon-success i {
-	border: 10px var(--secondary-color) solid;
+	border: 5px var(--secondary-color) solid;
 	border-radius: 50%;
-	padding: 10px;
+	padding: 5px;
 	color: var(--secondary-color);
 }
 
@@ -1583,11 +1566,13 @@ section#hotel-features .hotel-album {
 #filter-hotel .group-choices ul {
 	display: flex;
 }
+
 #filter-hotel .group-choices ul .header-filter {
 	position: relative;
 	top: 10px;
 	right: 10px;
 }
+
 #filter-hotel .group-choices ul li.list-choices .choice {
 	background-color: var(--primary-color);
 	border-radius: 20px;
@@ -1598,13 +1583,16 @@ section#hotel-features .hotel-album {
 	cursor: pointer;
 	margin: 3px;
 }
+
 #filter-hotel .group-choices ul li.list-choices {
 	outline: none;
 }
+
 #filter-hotel .group-choices ul li.list-choices div:first-child:hover {
 	background-color: rgb(6, 100, 69);
 }
-#filter-hotel .group-choices ul li.list-choices div:first-child:hover + div {
+
+#filter-hotel .group-choices ul li.list-choices div:first-child:hover+div {
 	display: block;
 }
 
@@ -1635,16 +1623,11 @@ section#hotel-features .hotel-album {
 	transform: scale(1);
 }
 
-#filter-hotel .group-choices ul li.list-choices div:first-child:hover + div {
+#filter-hotel .group-choices ul li.list-choices div:first-child:hover+div {
 	transform: scale(1);
 }
 
-#filter-hotel
-	.group-choices
-	ul
-	li.list-choices
-	div:first-child:hover
-	+ div:hover {
+#filter-hotel .group-choices ul li.list-choices div:first-child:hover+div:hover {
 	transform: scale(1);
 }
 
@@ -1664,14 +1647,7 @@ section#hotel-features .hotel-album {
 	font-size: 0.9rem;
 }
 
-#filter-hotel
-	.group-choices
-	ul
-	li.list-choices
-	.tab
-	ul
-	li
-	input[type="checkbox"] {
+#filter-hotel .group-choices ul li.list-choices .tab ul li input[type="checkbox"] {
 	width: 18px;
 	height: 18px;
 	position: relative;
@@ -1777,7 +1753,6 @@ section#hotel-features .hotel-album {
 	background-color: rgb(13, 75, 13);
 	color: #f2f2f2;
 }
-
 .border-dashed {
 	border: 1px var(--secondary-color) dashed;
 	padding: 5px 18px;
@@ -1804,23 +1779,11 @@ section#hotel-features .hotel-album {
 	margin-bottom: 20px;
 }
 
-#list-hotels-result
-	main
-	.hotel-items
-	.item
-	.hotel-item-content
-	.hotel-item-img
-	.header-img
-	img {
+#list-hotels-result main .hotel-items .item .hotel-item-content .hotel-item-img .header-img img {
 	width: 450px;
 }
 
-#list-hotels-result
-	main
-	.hotel-items
-	.item
-	.hotel-item-content
-	.hotel-item-img {
+#list-hotels-result main .hotel-items .item .hotel-item-content .hotel-item-img {
 	width: 55%;
 }
 
