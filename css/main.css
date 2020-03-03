@@ -831,11 +831,17 @@ article h4:hover {
 #footer .group-items .item:last-child .footer-group-icon-apps i,
 #footer .group-items .item:last-child .footer-group-icon-socials i {
   font-size: 1.5rem;
-  margin: 5px;
+  margin: 2px;
   background-color: var(--primary-color);
-  padding: 10px;
+  padding: 5px;
   border: 2px #666 solid;
   border-radius: 50%;
+}
+
+#footer .group-items .item:last-child .footer-group-icon-apps i.fa-qrcode,
+#footer .group-items .item:last-child .footer-group-icon-apps i.fa-apple,
+#footer .group-items .item:last-child .footer-group-icon-socials i.fa-instagram {
+  padding: 5px 8px;
 }
 
 #footer ul li {
@@ -849,7 +855,7 @@ article h4:hover {
 #footer .copy-right {
   border-top: 1px #f1f1f1 solid;
   z-index: 1;
-  padding-top: 20px;
+  padding-top: 2rem;
   color: #fff;
 }
 
