@@ -613,11 +613,6 @@ h4 {
   font-size: 1.3rem;
 }
 
-#combo-deals .cards .card .hotel-infos .hotel-rating i {
-  color: rgb(102, 102, 10);
-  padding-right: 20px;
-}
-
 #combo-deals .cards .card .hotel-infos .hotel-price {
   padding: 5px;
   font-size: 1.1rem;
