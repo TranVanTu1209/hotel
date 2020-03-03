@@ -26,9 +26,9 @@
 	</head>
 
 	<body>
-		<header id="header">
+		<header id="header" class="sign-up-header">
 			<div class="header-container">
-				<nav class="main-nav" class="py-1">
+				<nav class="main-nav">
 					<div class="main-logo-box">
 						<a
 							class="main-nav-logo text-logo"
@@ -41,9 +41,7 @@
 					</div>
 					<ul class="nav-bar">
 						<li>
-							<a href="index.html" class="current" target="_blank">
-								Trang chủ</a
-							>
+							<a href="index.html" target="_blank"> Trang chủ</a>
 						</li>
 						<li>
 							<a href="endow_details.html" target="_blank"> Khuyến mại</a>
@@ -72,7 +70,7 @@
 							>
 						</li>
 						<li>
-							<a href="index.html" target="_blank"
+							<a href="index.html" target="_blank" class="current"
 								><i class="fas fa-user-plus"></i> Đăng ký</a
 							>
 						</li>
@@ -85,8 +83,36 @@
 				</div>
 			</div>
 		</header>
-	
+		<!-- sign up section box -->
+		<div id="sign-up-main">
+			<div class="sign-up-box">
+				<div class="form-group">
+					<h3 class="text-medium">Đăng ký tài khoản - Nhận ưu đãi</h3>
+					<form action="">
+						<label for="username">Email hoặc số điện thoại</label>
+						<input type="text" id="username" />
+						<label for="real_name">Họ tên</label>
+						<input type="text" id="real_name" />
+						<label for="password">Mật khẩu</label>
+						<input type="password" id="password" />
+						<p class="text-extra-small">Mật khẩu tối thiếu 6 ký tự</p>
+						<label for="password_authentication">Xác nhận mật khẩu</label>
+						<input type="password" id="password_authentication" />
 
+						<p class="text-extra-small text-light mb-2">
+							Thông tin của bạn sẽ an toàn tuyệt đối
+						</p>
+						<span class="request-box">
+							<input type="checkbox" name="" id="" />
+							Nhận những ưu đãi đặc biệt của khách sạn
+						</span>
+							<input href="index.html" type="submit" value="Đăng ký" />
+				
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
 		<footer id="footer" class="py-5">
 			<div class="group-items">
 				<div class="item">
@@ -126,8 +152,8 @@
 						</li>
 						<li>
 							<a href="#">Cơ hội nghề nghiệp</a>
-            </li>
-            <li>
+						</li>
+						<li>
 							<a href="#">Cơ hội nghề nghiệp</a>
 						</li>
 					</ul>
@@ -144,11 +170,11 @@
 						</li>
 						<li>
 							<a href="#">Chương trình đại lý</a>
-            </li>
-            <li>
+						</li>
+						<li>
 							<a href="#">Chương trình đại lý</a>
-            </li>
-            <li>
+						</li>
+						<li>
 							<a href="#">Chương trình hợp tác</a>
 						</li>
 					</ul>
@@ -165,8 +191,8 @@
 						</li>
 						<li>
 							<a href="#">Quyền riêng tư </a>
-            </li>
-            <li>
+						</li>
+						<li>
 							<a href="#">Quyền riêng tư </a>
 						</li>
 						<li>

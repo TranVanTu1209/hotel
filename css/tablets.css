@@ -101,7 +101,6 @@
 
   #header .main-nav .nav-bar li a {
     margin: 0 0.7rem;
-    font-size: 0.9rem;
   }
 
   #header .main-nav .main-logo-box a {
@@ -313,16 +312,12 @@
   }
 
   #header .main-nav .main-logo-box a {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   #header .main-nav .nav-bar li {
-    margin-top: 10px;
+    margin-top: 12px;
     float: none;
-  }
-
-  #header .main-nav .nav-bar li a {
-    font-size: 0.9rem;
   }
 
   #header .show-bars {
