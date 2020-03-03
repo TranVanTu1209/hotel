@@ -17,11 +17,47 @@
   }
 
   /* news details page 1 */
-  .news-details-1 .container {
-    width: 100vw;
-    margin: 0;
+ #hot-news .news .news-left p{
+   display: none;
+ }
+ #hot-news .news .news-left h4 {
+   color: #fff;
+   top : -50px;
+   left: 35px;
+   position: relative;
+   font-size: 1.2rem;
+ }
+  /* news */
+  #hot-news .news {
+    flex-direction: column;
   }
 
+  .news .news-left img {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 0.5rem;
+  }
+
+  #hot-news .news .news-left {
+    width: 100%;
+    line-height: 1.2;
+    
+  }
+  .news .news-right {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+ .news .news-right .item {
+   margin: 1rem;
+ }
+
+  .news .news-right .item .item-link .item-link-title {
+    margin-right: 0;
+  }
+
+/* sample news page */
   .news-details-1 .container .news .news-left {
     margin-left: 2rem;
   }
@@ -38,12 +74,15 @@
     padding: 0;
   }
 
-  .news-details-1 .container .news .news-right {
-    margin-left: 2rem;
+  .news-details-1 .container .news .text-left{
+    margin-right: 0;
   }
-
+  .news-details-1 .container .news .text-left h5.item-link-title {
+    padding-right: 0;
+    margin-right: 0;
+  }
   .news-details-1 .container .news .news-right .item {
-    width: 45vw;
+    width: 40vw;
   }
 
   .news-details-1 .container .news .news-right .item img {
@@ -416,43 +455,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* news */
-  #hot-news .news {
-    flex-direction: column;
-  }
-
-  .news .news-left img {
-    width: 100%;
-    margin-left: 30px;
-    margin-bottom: 2rem;
-  }
-
-  #hot-news .news .news-left {
-    width: 70%;
-    line-height: 1.6;
-  }
-
-  .news .news-left .news-text {
-    width: 100%;
-    margin-top: 3.5rem;
-    text-align: center;
-    margin-left: -1rem;
-  }
-
-  .news .news-right {
-    width: 100%;
-    margin-left: 2rem;
-    margin-top: 2.5rem;
-  }
-
-  .news .news-left .news-text p {
-    display: none;
-  }
-
-  .news .news-right .item .item-link .item-link-title {
-    margin-right: 1rem;
-  }
-
+  
   /* sub  new at bottom */
   #sub-news .container {
     flex-direction: column;
@@ -954,9 +957,11 @@
   .news-details-1 .container .news .news-left img {
     width: 250px;
   }
-
-  /* .news-details-1 .container .news .news-left .social-share a{
-     margin-top: 0.5rem;
-    display: inline-block;
-   } */
+#hot-news .news .news-left h4 {
+  color: #fff;
+  top: -50px;
+  left: 35px;
+  position: relative;
+  font-size: 1rem;
+}
 }

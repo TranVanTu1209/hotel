@@ -6,12 +6,15 @@
   }
 
   .news .news-left .news-text {
-    top: 48%;
+    top: 55%;
     color: #222;
+    width: 90%;
+    padding-right: 2rem;
+    left: 20px;
   }
 
   .news .news-right .item img {
-    height: 80px;
+    height: 90px;
   }
 
   .news .news-left .news-text h4 {

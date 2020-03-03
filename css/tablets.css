@@ -15,7 +15,10 @@
     width: 40%;
     margin-left: 2rem;
   }
-
+  .news .news-left .news-text {
+    width: 80%;
+    left : 3rem;
+  }
   /* news main page  */
   .news .news-right {
     width: 45%;
