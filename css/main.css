@@ -1917,22 +1917,28 @@ section#hotel-features .hotel-album {
 }
 
 /* sign up - main page */
-#sign-up-main {
+#sign-up-main, #sign-in-main {
 	background: url("../img/hcm_.jpg") no-repeat center center/cover;
+	font-family: Arial, Helvetica, sans-serif;
 }
-#sign-up-main .sign-up-box {
+#sign-up-main .sign-up-box, #sign-in-main .sign-in-box {
 	background-color: rgba(135, 207, 235, 0.9);
 	width: 350px;
 	margin: 0.2rem auto;
 	padding: 1rem;
 	border-radius: 3px;
 }
-#sign-up-main .sign-up-box .form-group label {
+#sign-in-main .sign-in-box {
+	padding: 4rem 1.5rem;
+}
+#sign-up-main .sign-up-box .form-group label,
+#sign-in-main .sign-in-box .form-group label {
 	margin: 0.6rem 0;
 	display: block;
 	font-size: 1.3rem;
 }
-#sign-up-main .sign-up-box .form-group input {
+#sign-up-main .sign-up-box .form-group input,
+#sign-in-main .sign-in-box .form-group input {
 	display: block;
 	margin-bottom: 0.5rem;
 	width: 310px;
@@ -1951,9 +1957,31 @@ section#hotel-features .hotel-album {
 	position: relative;
 	top: 4px;
 }
-#sign-up-main .sign-up-box .form-group input[type="submit"] {
+#sign-up-main .sign-up-box .form-group input[type="submit"],
+#sign-in-main .sign-in-box .form-group input[type="submit"] {
 	color: #fff;
 	background-color: var(--info-color);
 	padding: 0.5rem 0;
 	cursor: pointer;
+	display: block;
+	margin: 1rem auto;
+	width: 50%;
+}
+
+#sign-in-main .sign-in-box .other-sign-in-choices {
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+	margin: 1rem auto;
+}
+#sign-in-main .sign-in-box .other-sign-in-choices i {
+	padding: 0.3rem;
+	border: 3px #014029 solid;
+	border-radius: 5px;
+}
+#sign-in-main .sign-in-box .other-sign-in-choices i.fa-facebook {
+	color: var(--info-color);
+}
+#sign-in-main .sign-in-box .other-sign-in-choices i.fa-google {
+	color: rgb(0, 0, 0, 0.8);
 }

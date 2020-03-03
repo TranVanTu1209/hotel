@@ -34,14 +34,13 @@
 							class="main-nav-logo text-logo"
 							href="index.html"
 							id="logo"
-							target="_blank"
 						>
 							<i class="fas fa-layer-group"> </i> MANDALA INN
 						</a>
 					</div>
 					<ul class="nav-bar">
 						<li>
-							<a href="index.html" target="_blank"> Trang chủ</a>
+							<a href="index.html" > Trang chủ</a>
 						</li>
 						<li>
 							<a href="endow_details.html" target="_blank"> Khuyến mại</a>
@@ -65,12 +64,12 @@
 							</ul>
 						</li>
 						<li>
-							<a href="signin.html"
+							<a href="signin.html"  class="current"
 								><i class="fas fa-user"></i> Đăng nhập</a
 							>
 						</li>
 						<li>
-							<a href="index.html" class="current"
+							<a href="signup.html"
 								><i class="fas fa-user-plus"></i> Đăng ký</a
 							>
 						</li>
@@ -84,30 +83,28 @@
 			</div>
 		</header>
 		<!-- sign up section box -->
-		<div id="sign-up-main">
-			<div class="sign-up-box">
+		<div id="sign-in-main">
+			<div class="sign-in-box">
 				<div class="form-group">
-					<h3 class="text-medium">Đăng ký tài khoản - Nhận ưu đãi</h3>
+          <h3 class="text-medium text-center">Đăng nhập chỉ 1 bước</h3>
+          <div class="other-sign-in-choices">
+            <div>
+              <a href="#"><i class="fab fa-facebook fa-3x"></i></a> 
+            </div>
+            <div>
+              <a href=""><i class="fab fa-google fa-3x"></i></a>
+            </div>
+            
+          </div>
+          <p class="text-extra-small py-3 text-center">
+              Có thể đăng nhập bằng facebook hoặc tài khoản google
+            </p>
 					<form action="">
 						<label for="username">Email hoặc số điện thoại</label>
 						<input type="text" id="username" />
-						<label for="real_name">Họ tên</label>
-						<input type="text" id="real_name" />
 						<label for="password">Mật khẩu</label>
 						<input type="password" id="password" />
-						<p class="text-extra-small">Mật khẩu tối thiếu 6 ký tự</p>
-						<label for="password_authentication">Xác nhận mật khẩu</label>
-						<input type="password" id="password_authentication" />
-
-						<p class="text-extra-small text-light mb-2">
-							Thông tin của bạn sẽ an toàn tuyệt đối
-						</p>
-						<span class="request-box">
-							<input type="checkbox" name="" id="" />
-							Nhận những ưu đãi đặc biệt của khách sạn
-						</span>
-							<input href="index.html" type="submit" value="Đăng ký" />
-				
+						<input type="submit" value="Đăng nhập" />
 					</form>
 				</div>
 			</div>
