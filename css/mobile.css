@@ -76,6 +76,7 @@
   .news-details-1 .container .news .news-left h3 {
     width: 85vw;
     padding: 0;
+    line-height: 1.6;
   }
 
   .news-details-1 .container .news .text-left {
