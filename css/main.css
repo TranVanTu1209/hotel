@@ -908,10 +908,10 @@ article h4:hover {
 /* message dialogue */
 #support-customer-dialogue {
 	position: sticky;
-	width: 180px;
-	height: 120px;
+	width: 170px;
+	height: 100px;
 	background-color: #012619c4;
-	top: 100px;
+	top: 83vh;
 	left: 100%;
 	border-radius: 5px;
 	z-index: 1;

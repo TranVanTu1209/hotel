@@ -197,10 +197,14 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.5rem;
   }
-
+ #show-case .form-find form input {
+   border-radius: 3px;
+   padding-left: 0.5rem;
+ }
   #show-case .form-find form input[type="submit"] {
     display: block;
-    margin: auto;
+    margin: 0.5rem auto;
+   
   }
 
   /* deals sections */
@@ -293,6 +297,10 @@
     width: 90%;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  #footer .copy-right {
+    font-size: 0.7rem;
   }
 
   #hot-hotel .hotel-info {
@@ -989,4 +997,13 @@
     position: relative;
     font-size: 1rem;
   }
+  /* sign up bottom */
+   #sign-up .container form input[type="email"] {
+     width: 280px;
+     padding: 5px 22px;
+   }
+
+   #sign-up .container form input[type="submit"] {
+     width: 280px;
+   }
 }
